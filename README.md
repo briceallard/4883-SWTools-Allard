@@ -1,5 +1,5 @@
-# 4443-Mobile-Apps-Allard
-Class files for 4443 Mobile App development
+# 4883-SWTools-Allard
+Class files for Software Tools with Dr. Griffin
 
 Brice Allard<br>
 briceallard@gmail.com<br>
