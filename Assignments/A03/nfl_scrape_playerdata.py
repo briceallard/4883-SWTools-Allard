@@ -8,6 +8,8 @@ read_path = os.path.dirname(os.path.abspath(__file__)) + '/data/game_data/'
 write_path = os.path.dirname(os.path.abspath(__file__)) + '/data/playerdata/'
 
 players = {}
+totStat = {}
+
 file_read_count = 1
 file_total_count = len([f for f in os.listdir(read_path) if os.path.isfile(os.path.join(read_path, f))])
 
@@ -32,6 +34,8 @@ for filename in os.listdir(read_path):
                                         players[player_id] = {}
                                         players[player_id]['teams'] = []
                                         players[player_id]['stats'] = []
+                                        players[player_id]['totals'] = {}
+                                        players[player_id]['totals']['statId'] = []
 
                                     for stat in player_data:
                                         stat['gameId'] = game_id
@@ -40,20 +44,31 @@ for filename in os.listdir(read_path):
 
                                         if stat['clubcode'] not in players[player_id]['teams']:
                                             players[player_id]['teams'].append(stat['clubcode'])
+
+                                        if stat['statId'] not in players[player_id]['totals']['statId']:
+                                            players[player_id]['totals']['statId'] = stat['statId']
+                                            totStat['statId'] = stat['statId']
+                                            totStat['totYds'] = 0
+                                            totStat['count'] = 0
+                                            players[player_id]['totals']['statId'] = totStat
+                                        else:
+                                            totStat['totYds'] += stat['yards']
+                                            totStat['count'] += 1
+                                            players[player_id]['totals']['statId'] = totStat
     
     file_read_count+=1
 
-    # pprint(players)
-    # sys.exit()
+    pprint(players)
+    sys.exit()
 
-for key in players:
-    filename = '%s' % (key) + '.json'
+# for key in players:
+#     filename = '%s' % (key) + '.json'
 
-    if not os.path.exists(write_path):
-        os.makedirs(write_path)
+#     if not os.path.exists(write_path):
+#         os.makedirs(write_path)
 
-    w = open(write_path + filename, 'w+')
-    w.write(json.dumps(players[key]))
-    w.close()
+#     w = open(write_path + filename, 'w+')
+#     w.write(json.dumps(players[key]))
+#     w.close()
 
 f.close()
