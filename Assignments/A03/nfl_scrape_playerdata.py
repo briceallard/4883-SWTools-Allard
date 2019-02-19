@@ -1,17 +1,18 @@
 import os
 import sys
 import json
+import math
 from pprint import pprint
 
 read_path = os.path.dirname(os.path.abspath(__file__)) + '/data/game_data/'
 write_path = os.path.dirname(os.path.abspath(__file__)) + '/data/playerdata/'
 
 players = {}
-file_read_count = 0
+file_read_count = 1
 file_total_count = len([f for f in os.listdir(read_path) if os.path.isfile(os.path.join(read_path, f))])
 
 for filename in os.listdir(read_path):
-    print("Gathering data - {0} of {1}".format(file_read_count, file_total_count))
+    print("Gathering data - {0} of {1} - {2}%".format(file_read_count, file_total_count, math.trunc(file_read_count / file_total_count * 100)))
 
     with open(read_path + filename) as f:
         data = json.load(f)
