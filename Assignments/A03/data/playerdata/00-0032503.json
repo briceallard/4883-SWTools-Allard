@@ -1,1 +1,1 @@
-{"teams": ["ARI"], "stats": [{"sequence": 1, "clubcode": "ARI", "playerName": "G.Price", "statId": 93, "yards": 5, "gameId": "2017083156"}], "playerName": "G.Price"}
+{"teams": ["ARI"], "stats": [{"sequence": 1, "clubcode": "ARI", "playerName": "G.Price", "statId": 93, "yards": 5, "gameId": "2017083156"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5}}, "playerName": "G.Price"}

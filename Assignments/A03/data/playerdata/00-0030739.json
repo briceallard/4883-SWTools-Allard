@@ -1,1 +1,1 @@
-{"teams": ["ATL"], "stats": [{"sequence": 3, "clubcode": "ATL", "playerName": "W.May", "statId": 79, "yards": 0, "gameId": "2014080800"}], "playerName": "W.May"}
+{"teams": ["ATL"], "stats": [{"sequence": 3, "clubcode": "ATL", "playerName": "W.May", "statId": 79, "yards": 0, "gameId": "2014080800"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "W.May"}

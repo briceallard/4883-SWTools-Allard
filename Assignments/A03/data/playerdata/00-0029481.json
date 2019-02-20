@@ -1,1 +1,1 @@
-{"teams": ["NO"], "stats": [{"sequence": 1, "clubcode": "NO", "playerName": "D.Pannell", "statId": 93, "yards": 10, "gameId": "2012083057"}], "playerName": "D.Pannell"}
+{"teams": ["NO"], "stats": [{"sequence": 1, "clubcode": "NO", "playerName": "D.Pannell", "statId": 93, "yards": 10, "gameId": "2012083057"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "D.Pannell"}

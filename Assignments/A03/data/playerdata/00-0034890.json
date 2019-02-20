@@ -1,1 +1,1 @@
-{"teams": ["SEA"], "stats": [{"sequence": 2, "clubcode": "SEA", "playerName": "J.Stockton", "statId": 10, "yards": 18.0, "gameId": "2018083064"}], "playerName": "J.Stockton"}
+{"teams": ["SEA"], "stats": [{"sequence": 2, "clubcode": "SEA", "playerName": "J.Stockton", "statId": 10, "yards": 18.0, "gameId": "2018083064"}], "totals": {"10": {"statId": 10, "count": 1, "totYds": 18.0}}, "playerName": "J.Stockton"}

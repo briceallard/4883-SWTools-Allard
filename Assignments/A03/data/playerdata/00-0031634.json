@@ -1,1 +1,1 @@
-{"teams": ["BUF"], "stats": [{"sequence": 1, "clubcode": "BUF", "playerName": "T.Chandler", "statId": 93, "yards": 10, "gameId": "2015081452"}], "playerName": "T.Chandler"}
+{"teams": ["BUF"], "stats": [{"sequence": 1, "clubcode": "BUF", "playerName": "T.Chandler", "statId": 93, "yards": 10, "gameId": "2015081452"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "T.Chandler"}

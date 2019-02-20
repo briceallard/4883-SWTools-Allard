@@ -1,1 +1,1 @@
-{"teams": ["BUF"], "stats": [{"sequence": 3, "clubcode": "BUF", "playerName": "N.Sukay", "statId": 79, "yards": 0, "gameId": "2012081754"}], "playerName": "N.Sukay"}
+{"teams": ["BUF"], "stats": [{"sequence": 3, "clubcode": "BUF", "playerName": "N.Sukay", "statId": 79, "yards": 0, "gameId": "2012081754"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "N.Sukay"}

@@ -1,1 +1,1 @@
-{"teams": ["BUF"], "stats": [{"sequence": 11, "clubcode": "BUF", "playerName": "N.Hennessey", "statId": 55, "yards": 0, "gameId": "2010081952"}], "playerName": "N.Hennessey"}
+{"teams": ["BUF"], "stats": [{"sequence": 11, "clubcode": "BUF", "playerName": "N.Hennessey", "statId": 55, "yards": 0, "gameId": "2010081952"}], "totals": {"55": {"statId": 55, "count": 1, "totYds": 0}}, "playerName": "N.Hennessey"}

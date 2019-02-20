@@ -1,1 +1,1 @@
-{"teams": ["MIA"], "stats": [{"sequence": 3, "clubcode": "MIA", "playerName": "R.Webber", "statId": 115, "yards": 0, "gameId": "2014080800"}], "playerName": "R.Webber"}
+{"teams": ["MIA"], "stats": [{"sequence": 3, "clubcode": "MIA", "playerName": "R.Webber", "statId": 115, "yards": 0, "gameId": "2014080800"}], "totals": {"115": {"statId": 115, "count": 1, "totYds": 0}}, "playerName": "R.Webber"}

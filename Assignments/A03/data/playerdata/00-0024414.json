@@ -1,1 +1,1 @@
-{"teams": ["CHI"], "stats": [{"sequence": 5, "clubcode": "CHI", "playerName": "T.Reed", "statId": 93, "yards": 6, "gameId": "2009083050"}], "playerName": "T.Reed"}
+{"teams": ["CHI"], "stats": [{"sequence": 5, "clubcode": "CHI", "playerName": "T.Reed", "statId": 93, "yards": 6, "gameId": "2009083050"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 6}}, "playerName": "T.Reed"}

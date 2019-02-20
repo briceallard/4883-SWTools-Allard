@@ -1,1 +1,1 @@
-{"teams": ["ATL"], "stats": [{"sequence": 8, "clubcode": "ATL", "playerName": "J.Sefon", "statId": 79, "yards": 0, "gameId": "2016081152"}], "playerName": "J.Sefon"}
+{"teams": ["ATL"], "stats": [{"sequence": 8, "clubcode": "ATL", "playerName": "J.Sefon", "statId": 79, "yards": 0, "gameId": "2016081152"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "J.Sefon"}

@@ -1,1 +1,1 @@
-{"teams": ["ATL"], "stats": [{"sequence": 1, "clubcode": "ATL", "playerName": "B.Schlueter", "statId": 93, "yards": 5, "gameId": "2010090254"}], "playerName": "B.Schlueter"}
+{"teams": ["ATL"], "stats": [{"sequence": 1, "clubcode": "ATL", "playerName": "B.Schlueter", "statId": 93, "yards": 5, "gameId": "2010090254"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5}}, "playerName": "B.Schlueter"}

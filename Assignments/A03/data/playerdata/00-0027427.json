@@ -1,1 +1,1 @@
-{"teams": ["IND"], "stats": [{"sequence": 1, "clubcode": "IND", "playerName": "M.Tepper", "statId": 93, "yards": 5, "gameId": "2011110606"}], "playerName": "M.Tepper"}
+{"teams": ["IND"], "stats": [{"sequence": 1, "clubcode": "IND", "playerName": "M.Tepper", "statId": 93, "yards": 5, "gameId": "2011110606"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5}}, "playerName": "M.Tepper"}

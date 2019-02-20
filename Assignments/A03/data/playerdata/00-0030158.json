@@ -1,1 +1,1 @@
-{"teams": ["KC"], "stats": [{"sequence": 5, "clubcode": "KC", "playerName": "R.Lohr", "statId": 82, "yards": 0, "gameId": "2013080905"}], "playerName": "R.Lohr"}
+{"teams": ["KC"], "stats": [{"sequence": 5, "clubcode": "KC", "playerName": "R.Lohr", "statId": 82, "yards": 0, "gameId": "2013080905"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "R.Lohr"}

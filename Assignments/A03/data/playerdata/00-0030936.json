@@ -1,1 +1,1 @@
-{"teams": ["IND"], "stats": [{"sequence": 1, "clubcode": "IND", "playerName": "M.Hall", "statId": 93, "yards": 5, "gameId": "2014080700"}], "playerName": "M.Hall"}
+{"teams": ["IND"], "stats": [{"sequence": 1, "clubcode": "IND", "playerName": "M.Hall", "statId": 93, "yards": 5, "gameId": "2014080700"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5}}, "playerName": "M.Hall"}

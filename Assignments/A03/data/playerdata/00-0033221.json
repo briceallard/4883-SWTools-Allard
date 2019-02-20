@@ -1,1 +1,1 @@
-{"teams": ["ATL"], "stats": [{"sequence": 3, "clubcode": "ATL", "playerName": "D.Brunskill", "statId": 82, "yards": 0, "gameId": "2017083152"}], "playerName": "D.Brunskill"}
+{"teams": ["ATL"], "stats": [{"sequence": 3, "clubcode": "ATL", "playerName": "D.Brunskill", "statId": 82, "yards": 0, "gameId": "2017083152"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "D.Brunskill"}

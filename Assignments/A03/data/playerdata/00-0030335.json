@@ -1,1 +1,1 @@
-{"teams": ["NYJ"], "stats": [{"sequence": 3, "clubcode": "NYJ", "playerName": "L.Coleman", "statId": 82, "yards": 0, "gameId": "2013082900"}], "playerName": "L.Coleman"}
+{"teams": ["NYJ"], "stats": [{"sequence": 3, "clubcode": "NYJ", "playerName": "L.Coleman", "statId": 82, "yards": 0, "gameId": "2013082900"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "L.Coleman"}

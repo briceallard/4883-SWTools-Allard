@@ -1,1 +1,1 @@
-{"teams": ["TEN"], "stats": [{"sequence": 7, "clubcode": "TEN", "playerName": "S.Tretola", "statId": 79, "yards": 0, "gameId": "2016090159"}], "playerName": "S.Tretola"}
+{"teams": ["TEN"], "stats": [{"sequence": 7, "clubcode": "TEN", "playerName": "S.Tretola", "statId": 79, "yards": 0, "gameId": "2016090159"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "S.Tretola"}

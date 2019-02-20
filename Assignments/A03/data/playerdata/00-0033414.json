@@ -1,1 +1,1 @@
-{"teams": ["MIA"], "stats": [{"sequence": 1, "clubcode": "MIA", "playerName": "E.Smith", "statId": 93, "yards": 10.0, "gameId": "2018083052"}], "playerName": "E.Smith"}
+{"teams": ["MIA"], "stats": [{"sequence": 1, "clubcode": "MIA", "playerName": "E.Smith", "statId": 93, "yards": 10.0, "gameId": "2018083052"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10.0}}, "playerName": "E.Smith"}

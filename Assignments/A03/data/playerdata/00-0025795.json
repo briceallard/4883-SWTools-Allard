@@ -1,1 +1,1 @@
-{"teams": ["PIT"], "stats": [{"sequence": 3, "clubcode": "PIT", "playerName": "N.McCaskill", "statId": 93, "yards": 15, "gameId": "2011081852"}], "playerName": "N.McCaskill"}
+{"teams": ["PIT"], "stats": [{"sequence": 3, "clubcode": "PIT", "playerName": "N.McCaskill", "statId": 93, "yards": 15, "gameId": "2011081852"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 15}}, "playerName": "N.McCaskill"}

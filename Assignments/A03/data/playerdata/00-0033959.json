@@ -1,1 +1,1 @@
-{"teams": ["CIN"], "stats": [{"sequence": 1, "clubcode": "CIN", "playerName": "J.Dielman", "statId": 93, "yards": 5, "gameId": "2017081152"}], "playerName": "J.Dielman"}
+{"teams": ["CIN"], "stats": [{"sequence": 1, "clubcode": "CIN", "playerName": "J.Dielman", "statId": 93, "yards": 5, "gameId": "2017081152"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5}}, "playerName": "J.Dielman"}

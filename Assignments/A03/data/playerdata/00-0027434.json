@@ -1,1 +1,1 @@
-{"teams": ["NYJ"], "stats": [{"sequence": 2, "clubcode": "NYJ", "playerName": "T.Knicky", "statId": 79, "yards": 0, "gameId": "2010090256"}], "playerName": "T.Knicky"}
+{"teams": ["NYJ"], "stats": [{"sequence": 2, "clubcode": "NYJ", "playerName": "T.Knicky", "statId": 79, "yards": 0, "gameId": "2010090256"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "T.Knicky"}

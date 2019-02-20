@@ -1,1 +1,1 @@
-{"teams": ["DEN"], "stats": [{"sequence": 2, "clubcode": "DEN", "playerName": "S.Carlson", "statId": 79, "yards": 0, "gameId": "2016081156"}], "playerName": "S.Carlson"}
+{"teams": ["DEN"], "stats": [{"sequence": 2, "clubcode": "DEN", "playerName": "S.Carlson", "statId": 79, "yards": 0, "gameId": "2016081156"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "S.Carlson"}

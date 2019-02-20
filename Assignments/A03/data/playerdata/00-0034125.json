@@ -1,1 +1,1 @@
-{"teams": ["PIT"], "stats": [{"sequence": 2, "clubcode": "PIT", "playerName": "K.Vickers", "statId": 79, "yards": 0.0, "gameId": "2018081652"}], "playerName": "K.Vickers"}
+{"teams": ["PIT"], "stats": [{"sequence": 2, "clubcode": "PIT", "playerName": "K.Vickers", "statId": 79, "yards": 0.0, "gameId": "2018081652"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0.0}}, "playerName": "K.Vickers"}

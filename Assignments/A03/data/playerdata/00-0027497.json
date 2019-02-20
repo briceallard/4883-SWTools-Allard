@@ -1,1 +1,1 @@
-{"teams": ["TB"], "stats": [{"sequence": 7, "clubcode": "TB", "playerName": "D.Pasco", "statId": 79, "yards": 0, "gameId": "2010081451"}], "playerName": "D.Pasco"}
+{"teams": ["TB"], "stats": [{"sequence": 7, "clubcode": "TB", "playerName": "D.Pasco", "statId": 79, "yards": 0, "gameId": "2010081451"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "D.Pasco"}

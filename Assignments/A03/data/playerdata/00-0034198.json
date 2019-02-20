@@ -1,1 +1,1 @@
-{"teams": ["BAL"], "stats": [{"sequence": 1, "clubcode": "BAL", "playerName": "T.Sieg", "statId": 93, "yards": 3.0, "gameId": "2018080951"}], "playerName": "T.Sieg"}
+{"teams": ["BAL"], "stats": [{"sequence": 1, "clubcode": "BAL", "playerName": "T.Sieg", "statId": 93, "yards": 3.0, "gameId": "2018080951"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 3.0}}, "playerName": "T.Sieg"}

@@ -1,1 +1,1 @@
-{"teams": ["CIN"], "stats": [{"sequence": 1, "clubcode": "CIN", "playerName": "A.Crummey", "statId": 93, "yards": 5, "gameId": "2009082051"}], "playerName": "A.Crummey"}
+{"teams": ["CIN"], "stats": [{"sequence": 1, "clubcode": "CIN", "playerName": "A.Crummey", "statId": 93, "yards": 5, "gameId": "2009082051"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5}}, "playerName": "A.Crummey"}

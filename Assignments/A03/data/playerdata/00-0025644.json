@@ -1,1 +1,1 @@
-{"teams": ["NO"], "stats": [{"sequence": 1, "clubcode": "NO", "playerName": "T.Duckworth", "statId": 93, "yards": 10, "gameId": "2009081452"}], "playerName": "T.Duckworth"}
+{"teams": ["NO"], "stats": [{"sequence": 1, "clubcode": "NO", "playerName": "T.Duckworth", "statId": 93, "yards": 10, "gameId": "2009081452"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "T.Duckworth"}

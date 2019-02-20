@@ -1,1 +1,1 @@
-{"teams": ["IND"], "stats": [{"sequence": 3, "clubcode": "IND", "playerName": "D.Federkeil", "statId": 93, "yards": 10, "gameId": "2009090353"}], "playerName": "D.Federkeil"}
+{"teams": ["IND"], "stats": [{"sequence": 3, "clubcode": "IND", "playerName": "D.Federkeil", "statId": 93, "yards": 10, "gameId": "2009090353"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "D.Federkeil"}

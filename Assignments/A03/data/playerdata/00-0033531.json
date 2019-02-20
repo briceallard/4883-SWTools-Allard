@@ -1,1 +1,1 @@
-{"teams": ["JAX"], "stats": [{"sequence": 4, "clubcode": "JAX", "playerName": "C.Holba", "statId": 82, "yards": 0, "gameId": "2017123111"}], "playerName": "C.Holba"}
+{"teams": ["JAX"], "stats": [{"sequence": 4, "clubcode": "JAX", "playerName": "C.Holba", "statId": 82, "yards": 0, "gameId": "2017123111"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "C.Holba"}

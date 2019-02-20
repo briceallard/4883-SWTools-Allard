@@ -1,1 +1,1 @@
-{"teams": ["CAR"], "stats": [{"sequence": 2, "clubcode": "CAR", "playerName": "A.Morales", "statId": 79, "yards": 0, "gameId": "2014082201"}], "playerName": "A.Morales"}
+{"teams": ["CAR"], "stats": [{"sequence": 2, "clubcode": "CAR", "playerName": "A.Morales", "statId": 79, "yards": 0, "gameId": "2014082201"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "A.Morales"}

@@ -1,1 +1,1 @@
-{"teams": ["CLE"], "stats": [{"sequence": 1, "clubcode": "CLE", "playerName": "K.Quarterman", "statId": 93, "yards": 10, "gameId": "2009082251"}], "playerName": "K.Quarterman"}
+{"teams": ["CLE"], "stats": [{"sequence": 1, "clubcode": "CLE", "playerName": "K.Quarterman", "statId": 93, "yards": 10, "gameId": "2009082251"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "K.Quarterman"}

@@ -1,1 +1,1 @@
-{"teams": ["LAC"], "stats": [{"sequence": 1, "clubcode": "LAC", "playerName": "B.Gouger", "statId": 93, "yards": 10, "gameId": "2017082657"}], "playerName": "B.Gouger"}
+{"teams": ["LAC"], "stats": [{"sequence": 1, "clubcode": "LAC", "playerName": "B.Gouger", "statId": 93, "yards": 10, "gameId": "2017082657"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "B.Gouger"}

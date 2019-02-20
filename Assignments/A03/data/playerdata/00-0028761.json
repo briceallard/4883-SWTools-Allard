@@ -1,1 +1,1 @@
-{"teams": ["OAK"], "stats": [{"sequence": 4, "clubcode": "OAK", "playerName": "D.Hill", "statId": 82, "yards": 0, "gameId": "2011090251"}], "playerName": "D.Hill"}
+{"teams": ["OAK"], "stats": [{"sequence": 4, "clubcode": "OAK", "playerName": "D.Hill", "statId": 82, "yards": 0, "gameId": "2011090251"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "D.Hill"}

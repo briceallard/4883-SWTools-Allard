@@ -1,1 +1,1 @@
-{"teams": ["NO"], "stats": [{"sequence": 2, "clubcode": "NO", "playerName": "E.Mitchell", "statId": 45, "yards": 8.0, "gameId": "2017083163"}], "playerName": "E.Mitchell"}
+{"teams": ["NO"], "stats": [{"sequence": 2, "clubcode": "NO", "playerName": "E.Mitchell", "statId": 45, "yards": 8.0, "gameId": "2017083163"}], "totals": {"45": {"statId": 45, "count": 1, "totYds": 8.0}}, "playerName": "E.Mitchell"}

@@ -1,1 +1,1 @@
-{"teams": ["OAK"], "stats": [{"sequence": 2, "clubcode": "OAK", "playerName": "S.Bayes", "statId": 115, "yards": 0, "gameId": "2009081353"}], "playerName": "S.Bayes"}
+{"teams": ["OAK"], "stats": [{"sequence": 2, "clubcode": "OAK", "playerName": "S.Bayes", "statId": 115, "yards": 0, "gameId": "2009081353"}], "totals": {"115": {"statId": 115, "count": 1, "totYds": 0}}, "playerName": "S.Bayes"}

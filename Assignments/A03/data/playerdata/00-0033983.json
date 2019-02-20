@@ -1,1 +1,1 @@
-{"teams": ["ATL"], "stats": [{"sequence": 3, "clubcode": "ATL", "playerName": "C.Pearson", "statId": 115, "yards": 0.0, "gameId": "2018081751"}], "playerName": "C.Pearson"}
+{"teams": ["ATL"], "stats": [{"sequence": 3, "clubcode": "ATL", "playerName": "C.Pearson", "statId": 115, "yards": 0.0, "gameId": "2018081751"}], "totals": {"115": {"statId": 115, "count": 1, "totYds": 0.0}}, "playerName": "C.Pearson"}

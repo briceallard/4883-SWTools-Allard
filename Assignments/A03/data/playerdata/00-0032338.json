@@ -1,1 +1,1 @@
-{"teams": ["TB"], "stats": [{"sequence": 3, "clubcode": "TB", "playerName": "D.Ferris", "statId": 79, "yards": 0.0, "gameId": "2018082456"}], "playerName": "D.Ferris"}
+{"teams": ["TB"], "stats": [{"sequence": 3, "clubcode": "TB", "playerName": "D.Ferris", "statId": 79, "yards": 0.0, "gameId": "2018082456"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0.0}}, "playerName": "D.Ferris"}

@@ -1,1 +1,1 @@
-{"teams": ["DAL"], "stats": [{"sequence": 9, "clubcode": "DAL", "playerName": "L.Adcock", "statId": 79, "yards": 0, "gameId": "2012081856"}], "playerName": "L.Adcock"}
+{"teams": ["DAL"], "stats": [{"sequence": 9, "clubcode": "DAL", "playerName": "L.Adcock", "statId": 79, "yards": 0, "gameId": "2012081856"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "L.Adcock"}

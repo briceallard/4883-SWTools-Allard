@@ -1,1 +1,1 @@
-{"teams": ["GB"], "stats": [{"sequence": 4, "clubcode": "GB", "playerName": "J.Hearns", "statId": 79, "yards": 0.0, "gameId": "2018080954"}], "playerName": "J.Hearns"}
+{"teams": ["GB"], "stats": [{"sequence": 4, "clubcode": "GB", "playerName": "J.Hearns", "statId": 79, "yards": 0.0, "gameId": "2018080954"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0.0}}, "playerName": "J.Hearns"}

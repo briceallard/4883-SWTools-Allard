@@ -1,1 +1,1 @@
-{"teams": ["NYG"], "stats": [{"sequence": 5, "clubcode": "NYG", "playerName": "A.Tweedy", "statId": 82, "yards": 0, "gameId": "2013081800"}], "playerName": "A.Tweedy"}
+{"teams": ["NYG"], "stats": [{"sequence": 5, "clubcode": "NYG", "playerName": "A.Tweedy", "statId": 82, "yards": 0, "gameId": "2013081800"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "A.Tweedy"}

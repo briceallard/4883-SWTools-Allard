@@ -1,1 +1,1 @@
-{"teams": ["IND"], "stats": [{"sequence": 7, "clubcode": "IND", "playerName": "W.Ossai", "statId": 82, "yards": 0.0, "gameId": "2018080962"}], "playerName": "W.Ossai"}
+{"teams": ["IND"], "stats": [{"sequence": 7, "clubcode": "IND", "playerName": "W.Ossai", "statId": 82, "yards": 0.0, "gameId": "2018080962"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0.0}}, "playerName": "W.Ossai"}

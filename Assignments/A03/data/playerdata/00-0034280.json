@@ -1,1 +1,1 @@
-{"teams": ["BAL"], "stats": [{"sequence": 1, "clubcode": "BAL", "playerName": "G.Senat", "statId": 93, "yards": 5.0, "gameId": "2018080951"}], "playerName": "G.Senat"}
+{"teams": ["BAL"], "stats": [{"sequence": 1, "clubcode": "BAL", "playerName": "G.Senat", "statId": 93, "yards": 5.0, "gameId": "2018080951"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5.0}}, "playerName": "G.Senat"}

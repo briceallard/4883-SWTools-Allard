@@ -1,1 +1,1 @@
-{"teams": ["DAL"], "stats": [{"sequence": 1, "clubcode": "DAL", "playerName": "J.Campos", "statId": 93, "yards": 10.0, "gameId": "2018083057"}], "playerName": "J.Campos"}
+{"teams": ["DAL"], "stats": [{"sequence": 1, "clubcode": "DAL", "playerName": "J.Campos", "statId": 93, "yards": 10.0, "gameId": "2018083057"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10.0}}, "playerName": "J.Campos"}

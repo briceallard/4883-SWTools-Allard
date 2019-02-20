@@ -1,1 +1,1 @@
-{"teams": ["CLE"], "stats": [{"sequence": 1, "clubcode": "CLE", "playerName": "D.Alford", "statId": 93, "yards": 5, "gameId": "2012081052"}], "playerName": "D.Alford"}
+{"teams": ["CLE"], "stats": [{"sequence": 1, "clubcode": "CLE", "playerName": "D.Alford", "statId": 93, "yards": 5, "gameId": "2012081052"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5}}, "playerName": "D.Alford"}

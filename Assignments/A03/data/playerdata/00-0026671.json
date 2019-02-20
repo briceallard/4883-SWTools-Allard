@@ -1,1 +1,1 @@
-{"teams": ["PHI"], "stats": [{"sequence": 3, "clubcode": "PHI", "playerName": "B.Harrison", "statId": 82, "yards": 0, "gameId": "2009082751"}], "playerName": "B.Harrison"}
+{"teams": ["PHI"], "stats": [{"sequence": 3, "clubcode": "PHI", "playerName": "B.Harrison", "statId": 82, "yards": 0, "gameId": "2009082751"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "B.Harrison"}

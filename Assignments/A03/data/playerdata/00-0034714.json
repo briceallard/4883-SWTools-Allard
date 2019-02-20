@@ -1,1 +1,1 @@
-{"teams": ["DET"], "stats": [{"sequence": 9, "clubcode": "DET", "playerName": "J.Okonye", "statId": 79, "yards": 0.0, "gameId": "2018081754"}], "playerName": "J.Okonye"}
+{"teams": ["DET"], "stats": [{"sequence": 9, "clubcode": "DET", "playerName": "J.Okonye", "statId": 79, "yards": 0.0, "gameId": "2018081754"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0.0}}, "playerName": "J.Okonye"}

@@ -1,1 +1,1 @@
-{"teams": ["HOU"], "stats": [{"sequence": 7, "clubcode": "HOU", "playerName": "J.Teague", "statId": 79, "yards": 0, "gameId": "2011081551"}], "playerName": "J.Teague"}
+{"teams": ["HOU"], "stats": [{"sequence": 7, "clubcode": "HOU", "playerName": "J.Teague", "statId": 79, "yards": 0, "gameId": "2011081551"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "J.Teague"}

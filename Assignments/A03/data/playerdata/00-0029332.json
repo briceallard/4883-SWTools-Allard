@@ -1,1 +1,1 @@
-{"teams": ["CHI"], "stats": [{"sequence": 1, "clubcode": "CHI", "playerName": "J.Brown", "statId": 93, "yards": 10, "gameId": "2012120905"}], "playerName": "J.Brown"}
+{"teams": ["CHI"], "stats": [{"sequence": 1, "clubcode": "CHI", "playerName": "J.Brown", "statId": 93, "yards": 10, "gameId": "2012120905"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "J.Brown"}

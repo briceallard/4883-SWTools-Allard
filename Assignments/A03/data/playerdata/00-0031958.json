@@ -1,1 +1,1 @@
-{"teams": ["KC"], "stats": [{"sequence": 9, "clubcode": "KC", "playerName": "A.Reiter", "statId": 79, "yards": 0.0, "gameId": "2018111900"}], "playerName": "A.Reiter"}
+{"teams": ["KC"], "stats": [{"sequence": 9, "clubcode": "KC", "playerName": "A.Reiter", "statId": 79, "yards": 0.0, "gameId": "2018111900"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0.0}}, "playerName": "A.Reiter"}

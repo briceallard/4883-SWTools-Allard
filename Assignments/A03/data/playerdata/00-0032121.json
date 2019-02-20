@@ -1,1 +1,1 @@
-{"teams": ["IND"], "stats": [{"sequence": 2, "clubcode": "IND", "playerName": "A.Debose", "statId": 33, "yards": 6, "gameId": "2016081354"}], "playerName": "A.Debose"}
+{"teams": ["IND"], "stats": [{"sequence": 2, "clubcode": "IND", "playerName": "A.Debose", "statId": 33, "yards": 6, "gameId": "2016081354"}], "totals": {"33": {"statId": 33, "count": 1, "totYds": 6}}, "playerName": "A.Debose"}

@@ -1,1 +1,1 @@
-{"teams": ["JAX"], "stats": [{"sequence": 1, "clubcode": "JAX", "playerName": "W.Poehls", "statId": 93, "yards": 5.0, "gameId": "2018081856"}], "playerName": "W.Poehls"}
+{"teams": ["JAX"], "stats": [{"sequence": 1, "clubcode": "JAX", "playerName": "W.Poehls", "statId": 93, "yards": 5.0, "gameId": "2018081856"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5.0}}, "playerName": "W.Poehls"}

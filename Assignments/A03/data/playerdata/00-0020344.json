@@ -1,1 +1,1 @@
-{"teams": ["DEN"], "stats": [{"sequence": 1, "clubcode": "DEN", "playerName": "B.Gorin", "statId": 93, "yards": 5, "gameId": "2009081453"}], "playerName": "B.Gorin"}
+{"teams": ["DEN"], "stats": [{"sequence": 1, "clubcode": "DEN", "playerName": "B.Gorin", "statId": 93, "yards": 5, "gameId": "2009081453"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5}}, "playerName": "B.Gorin"}

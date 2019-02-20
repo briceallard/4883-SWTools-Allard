@@ -1,1 +1,1 @@
-{"teams": ["CAR"], "stats": [{"sequence": 4, "clubcode": "CAR", "playerName": "T.Duhart", "statId": 85, "yards": 0, "gameId": "2011081355"}], "playerName": "T.Duhart"}
+{"teams": ["CAR"], "stats": [{"sequence": 4, "clubcode": "CAR", "playerName": "T.Duhart", "statId": 85, "yards": 0, "gameId": "2011081355"}], "totals": {"85": {"statId": 85, "count": 1, "totYds": 0}}, "playerName": "T.Duhart"}

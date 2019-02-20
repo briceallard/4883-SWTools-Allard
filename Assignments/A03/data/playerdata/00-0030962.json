@@ -1,1 +1,1 @@
-{"teams": ["DAL"], "stats": [{"sequence": 1, "clubcode": "DAL", "playerName": "R.Patrick", "statId": 93, "yards": 10, "gameId": "2014082810"}], "playerName": "R.Patrick"}
+{"teams": ["DAL"], "stats": [{"sequence": 1, "clubcode": "DAL", "playerName": "R.Patrick", "statId": 93, "yards": 10, "gameId": "2014082810"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "R.Patrick"}

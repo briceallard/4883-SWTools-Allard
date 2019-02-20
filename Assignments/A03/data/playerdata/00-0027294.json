@@ -1,1 +1,1 @@
-{"teams": ["PHI"], "stats": [{"sequence": 1, "clubcode": "PHI", "playerName": "Z.Duncan", "statId": 93, "yards": 5, "gameId": "2010081352"}], "playerName": "Z.Duncan"}
+{"teams": ["PHI"], "stats": [{"sequence": 1, "clubcode": "PHI", "playerName": "Z.Duncan", "statId": 93, "yards": 5, "gameId": "2010081352"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5}}, "playerName": "Z.Duncan"}

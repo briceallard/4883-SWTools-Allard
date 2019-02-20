@@ -1,1 +1,1 @@
-{"teams": ["NE"], "stats": [{"sequence": 2, "clubcode": "NE", "playerName": "E.Landi", "statId": 115, "yards": 0, "gameId": "2013081601"}], "playerName": "E.Landi"}
+{"teams": ["NE"], "stats": [{"sequence": 2, "clubcode": "NE", "playerName": "E.Landi", "statId": 115, "yards": 0, "gameId": "2013081601"}], "totals": {"115": {"statId": 115, "count": 1, "totYds": 0}}, "playerName": "E.Landi"}

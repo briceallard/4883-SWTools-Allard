@@ -1,1 +1,1 @@
-{"teams": ["IND"], "stats": [{"sequence": 3, "clubcode": "IND", "playerName": "L.Lumpkin", "statId": 82, "yards": 0, "gameId": "2012081251"}], "playerName": "L.Lumpkin"}
+{"teams": ["IND"], "stats": [{"sequence": 3, "clubcode": "IND", "playerName": "L.Lumpkin", "statId": 82, "yards": 0, "gameId": "2012081251"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "L.Lumpkin"}

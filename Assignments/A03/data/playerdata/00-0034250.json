@@ -1,1 +1,1 @@
-{"teams": ["CLE"], "stats": [{"sequence": 1, "clubcode": "CLE", "playerName": "C.DiLauro", "statId": 93, "yards": 10.0, "gameId": "2018080959"}], "playerName": "C.DiLauro"}
+{"teams": ["CLE"], "stats": [{"sequence": 1, "clubcode": "CLE", "playerName": "C.DiLauro", "statId": 93, "yards": 10.0, "gameId": "2018080959"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10.0}}, "playerName": "C.DiLauro"}

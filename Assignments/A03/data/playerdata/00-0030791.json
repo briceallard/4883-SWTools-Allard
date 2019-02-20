@@ -1,1 +1,1 @@
-{"teams": ["TEN"], "stats": [{"sequence": 8, "clubcode": "TEN", "playerName": "G.Ikard", "statId": 79, "yards": 0, "gameId": "2014081502"}], "playerName": "G.Ikard"}
+{"teams": ["TEN"], "stats": [{"sequence": 8, "clubcode": "TEN", "playerName": "G.Ikard", "statId": 79, "yards": 0, "gameId": "2014081502"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "G.Ikard"}

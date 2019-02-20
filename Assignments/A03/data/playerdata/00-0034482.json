@@ -1,1 +1,1 @@
-{"teams": ["ARI"], "stats": [{"sequence": 1, "clubcode": "ARI", "playerName": "O.Obasuyi", "statId": 93, "yards": 5.0, "gameId": "2018083051"}], "playerName": "O.Obasuyi"}
+{"teams": ["ARI"], "stats": [{"sequence": 1, "clubcode": "ARI", "playerName": "O.Obasuyi", "statId": 93, "yards": 5.0, "gameId": "2018083051"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5.0}}, "playerName": "O.Obasuyi"}

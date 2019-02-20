@@ -1,1 +1,1 @@
-{"teams": ["MIA"], "stats": [{"sequence": 2, "clubcode": "MIA", "playerName": "R.Grice-Mullen", "statId": 33, "yards": 3, "gameId": "2010081451"}], "playerName": "R.Grice-Mullen"}
+{"teams": ["MIA"], "stats": [{"sequence": 2, "clubcode": "MIA", "playerName": "R.Grice-Mullen", "statId": 33, "yards": 3, "gameId": "2010081451"}], "totals": {"33": {"statId": 33, "count": 1, "totYds": 3}}, "playerName": "R.Grice-Mullen"}

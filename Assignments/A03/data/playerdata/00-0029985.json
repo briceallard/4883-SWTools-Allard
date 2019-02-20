@@ -1,1 +1,1 @@
-{"teams": ["NE"], "stats": [{"sequence": 1, "clubcode": "NE", "playerName": "B.Bartholomew", "statId": 10, "yards": 4, "gameId": "2013082907"}], "playerName": "B.Bartholomew"}
+{"teams": ["NE"], "stats": [{"sequence": 1, "clubcode": "NE", "playerName": "B.Bartholomew", "statId": 10, "yards": 4, "gameId": "2013082907"}], "totals": {"10": {"statId": 10, "count": 1, "totYds": 4}}, "playerName": "B.Bartholomew"}

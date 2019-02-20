@@ -1,1 +1,1 @@
-{"teams": ["LA"], "stats": [{"sequence": 6, "clubcode": "LA", "playerName": "Z.Colvin", "statId": 110, "yards": 0, "gameId": "2016082757"}], "playerName": "Z.Colvin"}
+{"teams": ["LA"], "stats": [{"sequence": 6, "clubcode": "LA", "playerName": "Z.Colvin", "statId": 110, "yards": 0, "gameId": "2016082757"}], "totals": {"110": {"statId": 110, "count": 1, "totYds": 0}}, "playerName": "Z.Colvin"}

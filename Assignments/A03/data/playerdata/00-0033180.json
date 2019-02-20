@@ -1,1 +1,1 @@
-{"teams": ["IND"], "stats": [{"sequence": 4, "clubcode": "IND", "playerName": "A.Opoku", "statId": 82, "yards": 0, "gameId": "2016082052"}], "playerName": "A.Opoku"}
+{"teams": ["IND"], "stats": [{"sequence": 4, "clubcode": "IND", "playerName": "A.Opoku", "statId": 82, "yards": 0, "gameId": "2016082052"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "A.Opoku"}

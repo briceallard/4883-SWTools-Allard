@@ -1,1 +1,1 @@
-{"teams": ["CAR"], "stats": [{"sequence": 2, "clubcode": "CAR", "playerName": "B.Sandland", "statId": 115, "yards": 0, "gameId": "2016082651"}], "playerName": "B.Sandland"}
+{"teams": ["CAR"], "stats": [{"sequence": 2, "clubcode": "CAR", "playerName": "B.Sandland", "statId": 115, "yards": 0, "gameId": "2016082651"}], "totals": {"115": {"statId": 115, "count": 1, "totYds": 0}}, "playerName": "B.Sandland"}

@@ -1,1 +1,1 @@
-{"teams": ["CIN"], "stats": [{"sequence": 2, "clubcode": "CIN", "playerName": "K.Ross", "statId": 115, "yards": 0.0, "gameId": "2018083055"}], "playerName": "K.Ross"}
+{"teams": ["CIN"], "stats": [{"sequence": 2, "clubcode": "CIN", "playerName": "K.Ross", "statId": 115, "yards": 0.0, "gameId": "2018083055"}], "totals": {"115": {"statId": 115, "count": 1, "totYds": 0.0}}, "playerName": "K.Ross"}

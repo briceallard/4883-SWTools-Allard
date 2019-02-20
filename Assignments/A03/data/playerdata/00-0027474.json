@@ -1,1 +1,1 @@
-{"teams": ["ARI"], "stats": [{"sequence": 8, "clubcode": "ARI", "playerName": "T.Turner", "statId": 79, "yards": 0, "gameId": "2011082759"}], "playerName": "T.Turner"}
+{"teams": ["ARI"], "stats": [{"sequence": 8, "clubcode": "ARI", "playerName": "T.Turner", "statId": 79, "yards": 0, "gameId": "2011082759"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "T.Turner"}

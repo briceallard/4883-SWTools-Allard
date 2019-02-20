@@ -1,1 +1,1 @@
-{"teams": ["MIN"], "stats": [{"sequence": 2, "clubcode": "MIN", "playerName": "C.Cothran", "statId": 79, "yards": 0.0, "gameId": "2018083066"}], "playerName": "C.Cothran"}
+{"teams": ["MIN"], "stats": [{"sequence": 2, "clubcode": "MIN", "playerName": "C.Cothran", "statId": 79, "yards": 0.0, "gameId": "2018083066"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0.0}}, "playerName": "C.Cothran"}

@@ -1,1 +1,1 @@
-{"teams": ["DEN"], "stats": [{"sequence": 1, "clubcode": "DEN", "playerName": "A.Wuebbels", "statId": 93, "yards": 10, "gameId": "2012080956"}], "playerName": "A.Wuebbels"}
+{"teams": ["DEN"], "stats": [{"sequence": 1, "clubcode": "DEN", "playerName": "A.Wuebbels", "statId": 93, "yards": 10, "gameId": "2012080956"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "A.Wuebbels"}

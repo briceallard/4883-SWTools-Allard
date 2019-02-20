@@ -1,1 +1,1 @@
-{"teams": ["LAC"], "stats": [{"sequence": 3, "clubcode": "LAC", "playerName": "C.Posey", "statId": 115, "yards": 0, "gameId": "2017083165"}], "playerName": "C.Posey"}
+{"teams": ["LAC"], "stats": [{"sequence": 3, "clubcode": "LAC", "playerName": "C.Posey", "statId": 115, "yards": 0, "gameId": "2017083165"}], "totals": {"115": {"statId": 115, "count": 1, "totYds": 0}}, "playerName": "C.Posey"}

@@ -1,1 +1,1 @@
-{"teams": ["DEN"], "stats": [{"sequence": 1, "clubcode": "DEN", "playerName": "A.Schlottmann", "statId": 93, "yards": 5.0, "gameId": "2018083051"}], "playerName": "A.Schlottmann"}
+{"teams": ["DEN"], "stats": [{"sequence": 1, "clubcode": "DEN", "playerName": "A.Schlottmann", "statId": 93, "yards": 5.0, "gameId": "2018083051"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5.0}}, "playerName": "A.Schlottmann"}

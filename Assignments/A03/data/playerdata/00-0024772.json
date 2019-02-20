@@ -1,1 +1,1 @@
-{"teams": ["PIT"], "stats": [{"sequence": 1, "clubcode": "PIT", "playerName": "J.Capizzi", "statId": 93, "yards": 5, "gameId": "2009082953"}], "playerName": "J.Capizzi"}
+{"teams": ["PIT"], "stats": [{"sequence": 1, "clubcode": "PIT", "playerName": "J.Capizzi", "statId": 93, "yards": 5, "gameId": "2009082953"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5}}, "playerName": "J.Capizzi"}

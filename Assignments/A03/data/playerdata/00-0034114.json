@@ -1,1 +1,1 @@
-{"teams": ["SF"], "stats": [{"sequence": 1, "clubcode": "SF", "playerName": "C.Shelton", "statId": 93, "yards": 10.0, "gameId": "2018081853"}], "playerName": "C.Shelton"}
+{"teams": ["SF"], "stats": [{"sequence": 1, "clubcode": "SF", "playerName": "C.Shelton", "statId": 93, "yards": 10.0, "gameId": "2018081853"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10.0}}, "playerName": "C.Shelton"}

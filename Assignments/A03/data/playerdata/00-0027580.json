@@ -1,1 +1,1 @@
-{"teams": ["ATL"], "stats": [{"sequence": 3, "clubcode": "ATL", "playerName": "D.Walker", "statId": 79, "yards": 0, "gameId": "2010081353"}], "playerName": "D.Walker"}
+{"teams": ["ATL"], "stats": [{"sequence": 3, "clubcode": "ATL", "playerName": "D.Walker", "statId": 79, "yards": 0, "gameId": "2010081353"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "D.Walker"}

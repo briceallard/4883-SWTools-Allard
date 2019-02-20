@@ -1,1 +1,1 @@
-{"teams": ["NO"], "stats": [{"sequence": 1, "clubcode": "NO", "playerName": "C.Manhart", "statId": 93, "yards": 5, "gameId": "2015081351"}], "playerName": "C.Manhart"}
+{"teams": ["NO"], "stats": [{"sequence": 1, "clubcode": "NO", "playerName": "C.Manhart", "statId": 93, "yards": 5, "gameId": "2015081351"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5}}, "playerName": "C.Manhart"}

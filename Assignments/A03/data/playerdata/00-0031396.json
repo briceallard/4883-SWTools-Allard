@@ -1,1 +1,1 @@
-{"teams": ["STL"], "stats": [{"sequence": 1, "clubcode": "STL", "playerName": "M.Van Dyk", "statId": 93, "yards": 10, "gameId": "2014082804"}], "playerName": "M.Van Dyk"}
+{"teams": ["STL"], "stats": [{"sequence": 1, "clubcode": "STL", "playerName": "M.Van Dyk", "statId": 93, "yards": 10, "gameId": "2014082804"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "M.Van Dyk"}

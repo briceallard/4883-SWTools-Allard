@@ -1,1 +1,1 @@
-{"teams": ["PIT"], "stats": [{"sequence": 1, "clubcode": "PIT", "playerName": "G.Gilmore", "statId": 93, "yards": 5.0, "gameId": "2018080960"}], "playerName": "G.Gilmore"}
+{"teams": ["PIT"], "stats": [{"sequence": 1, "clubcode": "PIT", "playerName": "G.Gilmore", "statId": 93, "yards": 5.0, "gameId": "2018080960"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5.0}}, "playerName": "G.Gilmore"}

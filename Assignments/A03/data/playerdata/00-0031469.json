@@ -1,1 +1,1 @@
-{"teams": ["DET"], "stats": [{"sequence": 4, "clubcode": "DET", "playerName": "S.Benton", "statId": 79, "yards": 0, "gameId": "2014082801"}], "playerName": "S.Benton"}
+{"teams": ["DET"], "stats": [{"sequence": 4, "clubcode": "DET", "playerName": "S.Benton", "statId": 79, "yards": 0, "gameId": "2014082801"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "S.Benton"}

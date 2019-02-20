@@ -1,1 +1,1 @@
-{"teams": ["SD"], "stats": [{"sequence": 2, "clubcode": "SD", "playerName": "R.Smith", "statId": 45, "yards": 19, "gameId": "2009082950"}], "playerName": "R.Smith"}
+{"teams": ["SD"], "stats": [{"sequence": 2, "clubcode": "SD", "playerName": "R.Smith", "statId": 45, "yards": 19, "gameId": "2009082950"}], "totals": {"45": {"statId": 45, "count": 1, "totYds": 19}}, "playerName": "R.Smith"}

@@ -1,1 +1,1 @@
-{"teams": ["MIN"], "stats": [{"sequence": 1, "clubcode": "MIN", "playerName": "N.Whitaker", "statId": 43, "yards": 70, "gameId": "2011082055"}], "playerName": "N.Whitaker"}
+{"teams": ["MIN"], "stats": [{"sequence": 1, "clubcode": "MIN", "playerName": "N.Whitaker", "statId": 43, "yards": 70, "gameId": "2011082055"}], "totals": {"43": {"statId": 43, "count": 1, "totYds": 70}}, "playerName": "N.Whitaker"}

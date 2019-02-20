@@ -1,1 +1,1 @@
-{"teams": ["IND"], "stats": [{"sequence": 2, "clubcode": "IND", "playerName": "T.Hoover", "statId": 82, "yards": 0, "gameId": "2014080700"}], "playerName": "T.Hoover"}
+{"teams": ["IND"], "stats": [{"sequence": 2, "clubcode": "IND", "playerName": "T.Hoover", "statId": 82, "yards": 0, "gameId": "2014080700"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "T.Hoover"}

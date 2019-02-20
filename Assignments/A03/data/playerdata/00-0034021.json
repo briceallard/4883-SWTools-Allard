@@ -1,1 +1,1 @@
-{"teams": ["SEA"], "stats": [{"sequence": 1, "clubcode": "SEA", "playerName": "D.Brown", "statId": 93, "yards": 5, "gameId": "2017081851"}], "playerName": "D.Brown"}
+{"teams": ["SEA"], "stats": [{"sequence": 1, "clubcode": "SEA", "playerName": "D.Brown", "statId": 93, "yards": 5, "gameId": "2017081851"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5}}, "playerName": "D.Brown"}

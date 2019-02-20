@@ -1,1 +1,1 @@
-{"teams": ["BUF"], "stats": [{"sequence": 1, "clubcode": "BUF", "playerName": "B.Rodd", "statId": 93, "yards": 10, "gameId": "2009082254"}], "playerName": "B.Rodd"}
+{"teams": ["BUF"], "stats": [{"sequence": 1, "clubcode": "BUF", "playerName": "B.Rodd", "statId": 93, "yards": 10, "gameId": "2009082254"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "B.Rodd"}

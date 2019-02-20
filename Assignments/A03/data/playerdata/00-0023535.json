@@ -1,1 +1,1 @@
-{"teams": ["NE"], "stats": [{"sequence": 5, "clubcode": "NE", "playerName": "N.Kaczur", "statId": 55, "yards": 0, "gameId": "2009101110"}], "playerName": "N.Kaczur"}
+{"teams": ["NE"], "stats": [{"sequence": 5, "clubcode": "NE", "playerName": "N.Kaczur", "statId": 55, "yards": 0, "gameId": "2009101110"}], "totals": {"55": {"statId": 55, "count": 1, "totYds": 0}}, "playerName": "N.Kaczur"}

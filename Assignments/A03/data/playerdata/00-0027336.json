@@ -1,1 +1,1 @@
-{"teams": ["TEN"], "stats": [{"sequence": 2, "clubcode": "TEN", "playerName": "B.Sewall", "statId": 115, "yards": 0, "gameId": "2010082351"}], "playerName": "B.Sewall"}
+{"teams": ["TEN"], "stats": [{"sequence": 2, "clubcode": "TEN", "playerName": "B.Sewall", "statId": 115, "yards": 0, "gameId": "2010082351"}], "totals": {"115": {"statId": 115, "count": 1, "totYds": 0}}, "playerName": "B.Sewall"}

@@ -1,1 +1,1 @@
-{"teams": ["CHI"], "stats": [{"sequence": 3, "clubcode": "CHI", "playerName": "C.Rempel", "statId": 79, "yards": 0, "gameId": "2014081400"}], "playerName": "C.Rempel"}
+{"teams": ["CHI"], "stats": [{"sequence": 3, "clubcode": "CHI", "playerName": "C.Rempel", "statId": 79, "yards": 0, "gameId": "2014081400"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "C.Rempel"}

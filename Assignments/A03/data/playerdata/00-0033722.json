@@ -1,1 +1,1 @@
-{"teams": ["KC"], "stats": [{"sequence": 2, "clubcode": "KC", "playerName": "R.Wheelwright", "statId": 115, "yards": 0, "gameId": "2017081153"}], "playerName": "R.Wheelwright"}
+{"teams": ["KC"], "stats": [{"sequence": 2, "clubcode": "KC", "playerName": "R.Wheelwright", "statId": 115, "yards": 0, "gameId": "2017081153"}], "totals": {"115": {"statId": 115, "count": 1, "totYds": 0}}, "playerName": "R.Wheelwright"}

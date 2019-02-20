@@ -1,1 +1,1 @@
-{"teams": ["SEA"], "stats": [{"sequence": 3, "clubcode": "SEA", "playerName": "J.Hoffman", "statId": 85, "yards": 0, "gameId": "2011081153"}], "playerName": "J.Hoffman"}
+{"teams": ["SEA"], "stats": [{"sequence": 3, "clubcode": "SEA", "playerName": "J.Hoffman", "statId": 85, "yards": 0, "gameId": "2011081153"}], "totals": {"85": {"statId": 85, "count": 1, "totYds": 0}}, "playerName": "J.Hoffman"}

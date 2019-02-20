@@ -1,1 +1,1 @@
-{"teams": ["STL"], "stats": [{"sequence": 2, "clubcode": "STL", "playerName": "J.Byers", "statId": 45, "yards": 22, "gameId": "2009081450"}], "playerName": "J.Byers"}
+{"teams": ["STL"], "stats": [{"sequence": 2, "clubcode": "STL", "playerName": "J.Byers", "statId": 45, "yards": 22, "gameId": "2009081450"}], "totals": {"45": {"statId": 45, "count": 1, "totYds": 22}}, "playerName": "J.Byers"}

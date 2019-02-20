@@ -1,1 +1,1 @@
-{"teams": ["CLE"], "stats": [{"sequence": 2, "clubcode": "CLE", "playerName": "B.Woodson", "statId": 93, "yards": 5.0, "gameId": "2018083056"}], "playerName": "B.Woodson"}
+{"teams": ["CLE"], "stats": [{"sequence": 2, "clubcode": "CLE", "playerName": "B.Woodson", "statId": 93, "yards": 5.0, "gameId": "2018083056"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5.0}}, "playerName": "B.Woodson"}

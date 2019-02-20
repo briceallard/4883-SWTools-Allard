@@ -1,1 +1,1 @@
-{"teams": ["NE"], "stats": [{"sequence": 1, "clubcode": "NE", "playerName": "D.Waldron", "statId": 93, "yards": 5, "gameId": "2012082951"}], "playerName": "D.Waldron"}
+{"teams": ["NE"], "stats": [{"sequence": 1, "clubcode": "NE", "playerName": "D.Waldron", "statId": 93, "yards": 5, "gameId": "2012082951"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5}}, "playerName": "D.Waldron"}

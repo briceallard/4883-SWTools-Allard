@@ -1,1 +1,1 @@
-{"teams": ["OAK"], "stats": [{"sequence": 3, "clubcode": "OAK", "playerName": "R.Manning", "statId": 79, "yards": 0, "gameId": "2009082257"}], "playerName": "R.Manning"}
+{"teams": ["OAK"], "stats": [{"sequence": 3, "clubcode": "OAK", "playerName": "R.Manning", "statId": 79, "yards": 0, "gameId": "2009082257"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "R.Manning"}

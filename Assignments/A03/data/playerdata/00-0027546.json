@@ -1,1 +1,1 @@
-{"teams": ["MIN"], "stats": [{"sequence": 2, "clubcode": "MIN", "playerName": "C.McKinley", "statId": 82, "yards": 0, "gameId": "2011081354"}], "playerName": "C.McKinley"}
+{"teams": ["MIN"], "stats": [{"sequence": 2, "clubcode": "MIN", "playerName": "C.McKinley", "statId": 82, "yards": 0, "gameId": "2011081354"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "C.McKinley"}

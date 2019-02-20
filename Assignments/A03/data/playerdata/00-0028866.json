@@ -1,1 +1,1 @@
-{"teams": ["ATL"], "stats": [{"sequence": 1, "clubcode": "ATL", "playerName": "P.Manley", "statId": 93, "yards": 10, "gameId": "2013082906"}], "playerName": "P.Manley"}
+{"teams": ["ATL"], "stats": [{"sequence": 1, "clubcode": "ATL", "playerName": "P.Manley", "statId": 93, "yards": 10, "gameId": "2013082906"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "P.Manley"}

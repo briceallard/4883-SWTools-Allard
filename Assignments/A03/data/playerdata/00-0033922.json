@@ -1,1 +1,1 @@
-{"teams": ["NYJ"], "stats": [{"sequence": 3, "clubcode": "NYJ", "playerName": "A.Garcia", "statId": 93, "yards": 12.0, "gameId": "2018083061"}], "playerName": "A.Garcia"}
+{"teams": ["NYJ"], "stats": [{"sequence": 3, "clubcode": "NYJ", "playerName": "A.Garcia", "statId": 93, "yards": 12.0, "gameId": "2018083061"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 12.0}}, "playerName": "A.Garcia"}

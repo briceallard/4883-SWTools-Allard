@@ -1,1 +1,1 @@
-{"teams": ["PIT"], "stats": [{"sequence": 8, "clubcode": "PIT", "playerName": "K.Meadows", "statId": 55, "yards": 0.0, "gameId": "2018080960"}], "playerName": "K.Meadows"}
+{"teams": ["PIT"], "stats": [{"sequence": 8, "clubcode": "PIT", "playerName": "K.Meadows", "statId": 55, "yards": 0.0, "gameId": "2018080960"}], "totals": {"55": {"statId": 55, "count": 1, "totYds": 0.0}}, "playerName": "K.Meadows"}

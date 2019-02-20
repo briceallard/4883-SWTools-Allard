@@ -1,1 +1,1 @@
-{"teams": ["LA"], "stats": [{"sequence": 3, "clubcode": "LA", "playerName": "B.Womac", "statId": 79, "yards": 0.0, "gameId": "2018082554"}], "playerName": "B.Womac"}
+{"teams": ["LA"], "stats": [{"sequence": 3, "clubcode": "LA", "playerName": "B.Womac", "statId": 79, "yards": 0.0, "gameId": "2018082554"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0.0}}, "playerName": "B.Womac"}

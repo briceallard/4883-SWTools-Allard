@@ -1,1 +1,1 @@
-{"teams": ["SF"], "stats": [{"sequence": 6, "clubcode": "SF", "playerName": "M.Philipp", "statId": 79, "yards": 0, "gameId": "2014080701"}], "playerName": "M.Philipp"}
+{"teams": ["SF"], "stats": [{"sequence": 6, "clubcode": "SF", "playerName": "M.Philipp", "statId": 79, "yards": 0, "gameId": "2014080701"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "M.Philipp"}

@@ -1,1 +1,1 @@
-{"teams": ["STL"], "stats": [{"sequence": 7, "clubcode": "STL", "playerName": "A.Hoffman-Ellis", "statId": 82, "yards": 0, "gameId": "2012081251"}], "playerName": "A.Hoffman-Ellis"}
+{"teams": ["STL"], "stats": [{"sequence": 7, "clubcode": "STL", "playerName": "A.Hoffman-Ellis", "statId": 82, "yards": 0, "gameId": "2012081251"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "A.Hoffman-Ellis"}

@@ -1,1 +1,1 @@
-{"teams": ["JAC"], "stats": [{"sequence": 2, "clubcode": "JAC", "playerName": "M.Bomar", "statId": 79, "yards": 0, "gameId": "2013081702"}], "playerName": "M.Bomar"}
+{"teams": ["JAC"], "stats": [{"sequence": 2, "clubcode": "JAC", "playerName": "M.Bomar", "statId": 79, "yards": 0, "gameId": "2013081702"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "M.Bomar"}

@@ -1,1 +1,1 @@
-{"teams": ["CIN"], "stats": [{"sequence": 4, "clubcode": "CIN", "playerName": "B.St. Louis", "statId": 79, "yards": 0, "gameId": "2009091303"}], "playerName": "B.St. Louis"}
+{"teams": ["CIN"], "stats": [{"sequence": 4, "clubcode": "CIN", "playerName": "B.St. Louis", "statId": 79, "yards": 0, "gameId": "2009091303"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "B.St. Louis"}

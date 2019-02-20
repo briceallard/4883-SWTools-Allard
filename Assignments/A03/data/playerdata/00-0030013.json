@@ -1,1 +1,1 @@
-{"teams": ["BAL"], "stats": [{"sequence": 1, "clubcode": "BAL", "playerName": "R.Gaines", "statId": 93, "yards": 3, "gameId": "2013082909"}], "playerName": "R.Gaines"}
+{"teams": ["BAL"], "stats": [{"sequence": 1, "clubcode": "BAL", "playerName": "R.Gaines", "statId": 93, "yards": 3, "gameId": "2013082909"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 3}}, "playerName": "R.Gaines"}

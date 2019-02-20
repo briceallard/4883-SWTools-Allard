@@ -1,1 +1,1 @@
-{"teams": ["HOU"], "stats": [{"sequence": 1, "clubcode": "HOU", "playerName": "J.Treadwell", "statId": 93, "yards": 5, "gameId": "2015081552"}], "playerName": "J.Treadwell"}
+{"teams": ["HOU"], "stats": [{"sequence": 1, "clubcode": "HOU", "playerName": "J.Treadwell", "statId": 93, "yards": 5, "gameId": "2015081552"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5}}, "playerName": "J.Treadwell"}

@@ -1,1 +1,1 @@
-{"teams": ["KC"], "stats": [{"sequence": 2, "clubcode": "KC", "playerName": "J.Fitzgerald", "statId": 79, "yards": 0, "gameId": "2010081353"}], "playerName": "J.Fitzgerald"}
+{"teams": ["KC"], "stats": [{"sequence": 2, "clubcode": "KC", "playerName": "J.Fitzgerald", "statId": 79, "yards": 0, "gameId": "2010081353"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "J.Fitzgerald"}

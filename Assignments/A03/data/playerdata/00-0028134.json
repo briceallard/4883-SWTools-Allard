@@ -1,1 +1,1 @@
-{"teams": ["BUF"], "stats": [{"sequence": 1, "clubcode": "BUF", "playerName": "Ke.Williams", "statId": 93, "yards": 14, "gameId": "2012082552"}], "playerName": "Ke.Williams"}
+{"teams": ["BUF"], "stats": [{"sequence": 1, "clubcode": "BUF", "playerName": "Ke.Williams", "statId": 93, "yards": 14, "gameId": "2012082552"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 14}}, "playerName": "Ke.Williams"}

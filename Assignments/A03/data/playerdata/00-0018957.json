@@ -1,1 +1,1 @@
-{"teams": ["KC"], "stats": [{"sequence": 3, "clubcode": "KC", "playerName": "M.Simoneau", "statId": 79, "yards": 0, "gameId": "2010111407"}], "playerName": "M.Simoneau"}
+{"teams": ["KC"], "stats": [{"sequence": 3, "clubcode": "KC", "playerName": "M.Simoneau", "statId": 79, "yards": 0, "gameId": "2010111407"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "M.Simoneau"}

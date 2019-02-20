@@ -1,1 +1,1 @@
-{"teams": ["NE"], "stats": [{"sequence": 1, "clubcode": "NE", "playerName": "G.Bussey", "statId": 93, "yards": 10, "gameId": "2010090253"}], "playerName": "G.Bussey"}
+{"teams": ["NE"], "stats": [{"sequence": 1, "clubcode": "NE", "playerName": "G.Bussey", "statId": 93, "yards": 10, "gameId": "2010090253"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "G.Bussey"}

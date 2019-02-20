@@ -1,1 +1,1 @@
-{"teams": ["CIN"], "stats": [{"sequence": 1, "clubcode": "CIN", "playerName": "J.Murray", "statId": 93, "yards": 10.0, "gameId": "2018083055"}], "playerName": "J.Murray"}
+{"teams": ["CIN"], "stats": [{"sequence": 1, "clubcode": "CIN", "playerName": "J.Murray", "statId": 93, "yards": 10.0, "gameId": "2018083055"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10.0}}, "playerName": "J.Murray"}

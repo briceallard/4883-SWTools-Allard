@@ -1,1 +1,1 @@
-{"teams": ["MIN"], "stats": [{"sequence": 3, "clubcode": "MIN", "playerName": "R.Williams", "statId": 79, "yards": 0, "gameId": "2013081600"}], "playerName": "R.Williams"}
+{"teams": ["MIN"], "stats": [{"sequence": 3, "clubcode": "MIN", "playerName": "R.Williams", "statId": 79, "yards": 0, "gameId": "2013081600"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "R.Williams"}

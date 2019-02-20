@@ -1,1 +1,1 @@
-{"teams": ["DEN"], "stats": [{"sequence": 6, "clubcode": "DEN", "playerName": "U.Kaveinga", "statId": 79, "yards": 0, "gameId": "2013080804"}], "playerName": "U.Kaveinga"}
+{"teams": ["DEN"], "stats": [{"sequence": 6, "clubcode": "DEN", "playerName": "U.Kaveinga", "statId": 79, "yards": 0, "gameId": "2013080804"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "U.Kaveinga"}

@@ -1,1 +1,1 @@
-{"teams": ["SD"], "stats": [{"sequence": 2, "clubcode": "SD", "playerName": "B.Hekking", "statId": 82, "yards": 0, "gameId": "2015082258"}], "playerName": "B.Hekking"}
+{"teams": ["SD"], "stats": [{"sequence": 2, "clubcode": "SD", "playerName": "B.Hekking", "statId": 82, "yards": 0, "gameId": "2015082258"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "B.Hekking"}

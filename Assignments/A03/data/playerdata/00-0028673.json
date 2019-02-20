@@ -1,1 +1,1 @@
-{"teams": ["DET"], "stats": [{"sequence": 3, "clubcode": "DET", "playerName": "D.Ballard", "statId": 115, "yards": 0, "gameId": "2011082757"}], "playerName": "D.Ballard"}
+{"teams": ["DET"], "stats": [{"sequence": 3, "clubcode": "DET", "playerName": "D.Ballard", "statId": 115, "yards": 0, "gameId": "2011082757"}], "totals": {"115": {"statId": 115, "count": 1, "totYds": 0}}, "playerName": "D.Ballard"}

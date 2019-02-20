@@ -1,1 +1,1 @@
-{"teams": ["ARI"], "stats": [{"sequence": 1, "clubcode": "ARI", "playerName": "J.Estes", "statId": 93, "yards": 10, "gameId": "2014082815"}], "playerName": "J.Estes"}
+{"teams": ["ARI"], "stats": [{"sequence": 1, "clubcode": "ARI", "playerName": "J.Estes", "statId": 93, "yards": 10, "gameId": "2014082815"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "J.Estes"}

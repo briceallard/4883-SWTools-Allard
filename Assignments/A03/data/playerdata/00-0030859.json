@@ -1,1 +1,1 @@
-{"teams": ["IND"], "stats": [{"sequence": 4, "clubcode": "IND", "playerName": "G.Conway", "statId": 82, "yards": 0, "gameId": "2014082304"}], "playerName": "G.Conway"}
+{"teams": ["IND"], "stats": [{"sequence": 4, "clubcode": "IND", "playerName": "G.Conway", "statId": 82, "yards": 0, "gameId": "2014082304"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "G.Conway"}

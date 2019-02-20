@@ -1,1 +1,1 @@
-{"teams": ["CLE"], "stats": [{"sequence": 1, "clubcode": "CLE", "playerName": "J.Warren", "statId": 93, "yards": 5, "gameId": "2014080900"}], "playerName": "J.Warren"}
+{"teams": ["CLE"], "stats": [{"sequence": 1, "clubcode": "CLE", "playerName": "J.Warren", "statId": 93, "yards": 5, "gameId": "2014080900"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5}}, "playerName": "J.Warren"}

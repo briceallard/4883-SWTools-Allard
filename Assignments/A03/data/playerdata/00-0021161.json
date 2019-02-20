@@ -1,1 +1,1 @@
-{"teams": ["BUF"], "stats": [{"sequence": 1, "clubcode": "BUF", "playerName": "K.Simmons", "statId": 93, "yards": 5, "gameId": "2009112901"}], "playerName": "K.Simmons"}
+{"teams": ["BUF"], "stats": [{"sequence": 1, "clubcode": "BUF", "playerName": "K.Simmons", "statId": 93, "yards": 5, "gameId": "2009112901"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 5}}, "playerName": "K.Simmons"}

@@ -1,1 +1,1 @@
-{"teams": ["BAL"], "stats": [{"sequence": 1, "clubcode": "BAL", "playerName": "M.Shakir", "statId": 93, "yards": 10, "gameId": "2017082652"}], "playerName": "M.Shakir"}
+{"teams": ["BAL"], "stats": [{"sequence": 1, "clubcode": "BAL", "playerName": "M.Shakir", "statId": 93, "yards": 10, "gameId": "2017082652"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "M.Shakir"}

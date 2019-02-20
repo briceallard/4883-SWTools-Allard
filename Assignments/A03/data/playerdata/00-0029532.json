@@ -1,1 +1,1 @@
-{"teams": ["NYJ"], "stats": [{"sequence": 1, "clubcode": "NYJ", "playerName": "R.Griffin", "statId": 93, "yards": 10, "gameId": "2012081051"}], "playerName": "R.Griffin"}
+{"teams": ["NYJ"], "stats": [{"sequence": 1, "clubcode": "NYJ", "playerName": "R.Griffin", "statId": 93, "yards": 10, "gameId": "2012081051"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "R.Griffin"}

@@ -1,1 +1,1 @@
-{"teams": ["IND"], "stats": [{"sequence": 6, "clubcode": "IND", "playerName": "A.Sarao", "statId": 79, "yards": 0, "gameId": "2016081354"}], "playerName": "A.Sarao"}
+{"teams": ["IND"], "stats": [{"sequence": 6, "clubcode": "IND", "playerName": "A.Sarao", "statId": 79, "yards": 0, "gameId": "2016081354"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "A.Sarao"}

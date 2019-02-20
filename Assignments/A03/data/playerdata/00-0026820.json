@@ -1,1 +1,1 @@
-{"teams": ["BAL"], "stats": [{"sequence": 3, "clubcode": "BAL", "playerName": "N.Abdallah", "statId": 79, "yards": 0, "gameId": "2009090352"}], "playerName": "N.Abdallah"}
+{"teams": ["BAL"], "stats": [{"sequence": 3, "clubcode": "BAL", "playerName": "N.Abdallah", "statId": 79, "yards": 0, "gameId": "2009090352"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "N.Abdallah"}

@@ -1,1 +1,1 @@
-{"teams": ["STL"], "stats": [{"sequence": 1, "clubcode": "STL", "playerName": "C.Habben", "statId": 93, "yards": 10, "gameId": "2011090158"}], "playerName": "C.Habben"}
+{"teams": ["STL"], "stats": [{"sequence": 1, "clubcode": "STL", "playerName": "C.Habben", "statId": 93, "yards": 10, "gameId": "2011090158"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 10}}, "playerName": "C.Habben"}

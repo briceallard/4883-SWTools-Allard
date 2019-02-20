@@ -1,1 +1,1 @@
-{"teams": ["WAS"], "stats": [{"sequence": 2, "clubcode": "WAS", "playerName": "J.Turner", "statId": 115, "yards": 0, "gameId": "2016081952"}], "playerName": "J.Turner"}
+{"teams": ["WAS"], "stats": [{"sequence": 2, "clubcode": "WAS", "playerName": "J.Turner", "statId": 115, "yards": 0, "gameId": "2016081952"}], "totals": {"115": {"statId": 115, "count": 1, "totYds": 0}}, "playerName": "J.Turner"}

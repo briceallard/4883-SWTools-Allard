@@ -1,1 +1,1 @@
-{"teams": ["DAL"], "stats": [{"sequence": 2, "clubcode": "DAL", "playerName": "J.Taplin-Ross", "statId": 93, "yards": 23, "gameId": "2012081351"}], "playerName": "J.Taplin-Ross"}
+{"teams": ["DAL"], "stats": [{"sequence": 2, "clubcode": "DAL", "playerName": "J.Taplin-Ross", "statId": 93, "yards": 23, "gameId": "2012081351"}], "totals": {"93": {"statId": 93, "count": 1, "totYds": 23}}, "playerName": "J.Taplin-Ross"}

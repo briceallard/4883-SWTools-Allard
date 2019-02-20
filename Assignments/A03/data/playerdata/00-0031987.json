@@ -1,1 +1,1 @@
-{"teams": ["PIT"], "stats": [{"sequence": 2, "clubcode": "PIT", "playerName": "M.Thornton", "statId": 79, "yards": 0, "gameId": "2015082951"}], "playerName": "M.Thornton"}
+{"teams": ["PIT"], "stats": [{"sequence": 2, "clubcode": "PIT", "playerName": "M.Thornton", "statId": 79, "yards": 0, "gameId": "2015082951"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "M.Thornton"}

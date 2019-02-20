@@ -1,1 +1,1 @@
-{"teams": ["BAL"], "stats": [{"sequence": 6, "clubcode": "BAL", "playerName": "M.Reynolds", "statId": 59, "yards": 0, "gameId": "2015082252"}], "playerName": "M.Reynolds"}
+{"teams": ["BAL"], "stats": [{"sequence": 6, "clubcode": "BAL", "playerName": "M.Reynolds", "statId": 59, "yards": 0, "gameId": "2015082252"}], "totals": {"59": {"statId": 59, "count": 1, "totYds": 0}}, "playerName": "M.Reynolds"}

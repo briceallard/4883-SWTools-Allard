@@ -1,1 +1,1 @@
-{"teams": ["CHI"], "stats": [{"sequence": 3, "clubcode": "CHI", "playerName": "T.Carew", "statId": 79, "yards": 0.0, "gameId": "2018083054"}], "playerName": "T.Carew"}
+{"teams": ["CHI"], "stats": [{"sequence": 3, "clubcode": "CHI", "playerName": "T.Carew", "statId": 79, "yards": 0.0, "gameId": "2018083054"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0.0}}, "playerName": "T.Carew"}

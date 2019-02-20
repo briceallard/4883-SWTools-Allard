@@ -1,1 +1,1 @@
-{"teams": ["NYJ"], "stats": [{"sequence": 4, "clubcode": "NYJ", "playerName": "H.Whittaker", "statId": 82, "yards": 0, "gameId": "2009082956"}], "playerName": "H.Whittaker"}
+{"teams": ["NYJ"], "stats": [{"sequence": 4, "clubcode": "NYJ", "playerName": "H.Whittaker", "statId": 82, "yards": 0, "gameId": "2009082956"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "H.Whittaker"}

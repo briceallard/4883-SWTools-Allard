@@ -1,1 +1,1 @@
-{"teams": ["DET"], "stats": [{"sequence": 8, "clubcode": "DET", "playerName": "J.Skinner", "statId": 79, "yards": 0, "gameId": "2015082051"}], "playerName": "J.Skinner"}
+{"teams": ["DET"], "stats": [{"sequence": 8, "clubcode": "DET", "playerName": "J.Skinner", "statId": 79, "yards": 0, "gameId": "2015082051"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0}}, "playerName": "J.Skinner"}

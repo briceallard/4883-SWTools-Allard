@@ -1,1 +1,1 @@
-{"teams": ["BUF"], "stats": [{"sequence": 3, "clubcode": "BUF", "playerName": "E.Striker", "statId": 82, "yards": 0, "gameId": "2016081354"}], "playerName": "E.Striker"}
+{"teams": ["BUF"], "stats": [{"sequence": 3, "clubcode": "BUF", "playerName": "E.Striker", "statId": 82, "yards": 0, "gameId": "2016081354"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "E.Striker"}

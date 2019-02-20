@@ -1,1 +1,1 @@
-{"teams": ["MIN"], "stats": [{"sequence": 4, "clubcode": "MIN", "playerName": "M.Michel", "statId": 82, "yards": 0, "gameId": "2016081857"}], "playerName": "M.Michel"}
+{"teams": ["MIN"], "stats": [{"sequence": 4, "clubcode": "MIN", "playerName": "M.Michel", "statId": 82, "yards": 0, "gameId": "2016081857"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "M.Michel"}

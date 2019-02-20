@@ -1,1 +1,1 @@
-{"teams": ["PIT"], "stats": [{"sequence": 6, "clubcode": "PIT", "playerName": "P.Cothren", "statId": 79, "yards": 0.0, "gameId": "2018083062"}], "playerName": "P.Cothren"}
+{"teams": ["PIT"], "stats": [{"sequence": 6, "clubcode": "PIT", "playerName": "P.Cothren", "statId": 79, "yards": 0.0, "gameId": "2018083062"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0.0}}, "playerName": "P.Cothren"}

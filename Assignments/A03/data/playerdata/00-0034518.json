@@ -1,1 +1,1 @@
-{"teams": ["JAX"], "stats": [{"sequence": 2, "clubcode": "JAX", "playerName": "R.Hunter", "statId": 79, "yards": 0.0, "gameId": "2018080955"}], "playerName": "R.Hunter"}
+{"teams": ["JAX"], "stats": [{"sequence": 2, "clubcode": "JAX", "playerName": "R.Hunter", "statId": 79, "yards": 0.0, "gameId": "2018080955"}], "totals": {"79": {"statId": 79, "count": 1, "totYds": 0.0}}, "playerName": "R.Hunter"}

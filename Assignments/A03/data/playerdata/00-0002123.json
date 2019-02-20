@@ -1,1 +1,1 @@
-{"teams": ["NE"], "stats": [{"sequence": 2, "clubcode": "NE", "playerName": "T.Bruschi", "statId": 80, "yards": 0, "gameId": "2009082850"}], "playerName": "T.Bruschi"}
+{"teams": ["NE"], "stats": [{"sequence": 2, "clubcode": "NE", "playerName": "T.Bruschi", "statId": 80, "yards": 0, "gameId": "2009082850"}], "totals": {"80": {"statId": 80, "count": 1, "totYds": 0}}, "playerName": "T.Bruschi"}

@@ -1,1 +1,1 @@
-{"teams": ["SD"], "stats": [{"sequence": 4, "clubcode": "SD", "playerName": "C.Botticelli", "statId": 82, "yards": 0, "gameId": "2015082258"}], "playerName": "C.Botticelli"}
+{"teams": ["SD"], "stats": [{"sequence": 4, "clubcode": "SD", "playerName": "C.Botticelli", "statId": 82, "yards": 0, "gameId": "2015082258"}], "totals": {"82": {"statId": 82, "count": 1, "totYds": 0}}, "playerName": "C.Botticelli"}
