@@ -92,8 +92,8 @@ def mostRushMinus(files):
     for key in sorted_keys:
         sorted_dict[key] = players[key]
 
-    top_5 = list(islice(sorted_dict.items(), 5))
-    return top_5
+    top_five = list(islice(sorted_dict.items(), 5))
+    return top_five
 
 # Find the player(s) that had the most rushes for a loss.
 # Find the player(s) with the most number of passes for a loss.
