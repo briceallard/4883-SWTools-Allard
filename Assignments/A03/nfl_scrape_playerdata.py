@@ -14,8 +14,7 @@ file_total_count = len([f for f in os.listdir(
     read_path) if os.path.isfile(os.path.join(read_path, f))])
 
 for filename in os.listdir(read_path):
-    print("Gathering data - {0} of {1} - {2}%".format(file_read_count,
-                                                      file_total_count, math.trunc(file_read_count / file_total_count * 100)))
+    print("Gathering data - {0} of {1} - {2}%".format(file_read_count, file_total_count, math.trunc(file_read_count / file_total_count * 100)))
 
     with open(read_path + filename) as f:
         data = json.load(f)
@@ -26,7 +25,6 @@ for filename in os.listdir(read_path):
                 for drive_id, drive_data in game_data['drives'].items():
                     if drive_id != "crntdrv":
 
-                        
                         for play_id, play_data in drive_data['plays'].items():
 
                             for player_id, player_data in play_data['players'].items():
@@ -44,13 +42,14 @@ for filename in os.listdir(read_path):
                                         players[player_id]['playerName'] = stat['playerName']
                                         players[player_id]['stats'].append(stat)
 
+                                        # Add all teams player ever played with
                                         if stat['clubcode'] not in players[player_id]['teams']:
                                             players[player_id]['teams'].append(stat['clubcode'])
-                                        
+
                                         # Update totals for each player with statId, totYds, and count
                                         if stat['statId'] not in players[player_id]['totals']:
                                             players[player_id]['totals'][stat['statId']] = {
-                                                'statId':stat['statId'],
+                                                'statId': stat['statId'],
                                                 'count': 1,
                                                 'totYds': stat['yards']
                                             }
