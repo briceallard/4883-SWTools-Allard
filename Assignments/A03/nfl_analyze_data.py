@@ -60,12 +60,27 @@ def mostTeamsCareer(files):
     return players
 
 # Find the player(s) that played for multiple teams in one year.
+# def mostTeamsYear(files):
+#     players = {
+#         'playerName': '',
+#         'totTeams': 0,
+#         'year': {
+#             'teams': []
+#         }
+#     }
 
+#     for file in files:
+#         data = openFileJson(file)
 
+#         for stat in data['stats']:
+#             if data['playerName'] not in players.keys():
 
+#         if players['totTeams'] < len(data['teams']):
+#             players['playerName'] = data['playerName']
+#             players['totTeams'] = len(data['teams'])
+#             players['teams'] = data['teams']
 
-
-
+#     return players
 
 # Find the player(s) that had the most yards rushed for a loss.
 def mostRushYardMinus(files):
@@ -78,8 +93,8 @@ def mostRushYardMinus(files):
             if data['playerName'] not in players.keys():
                 if stat['statId'] == 10:
                     players[data['playerName']] = {}
-                    players[data['playerName']]['totYds'] = 0
-                    players[data['playerName']]['count'] = 0
+                    players[data['playerName']]['totYds'] = stat['yards']
+                    players[data['playerName']]['count'] = 1
 
             elif stat['statId'] != None and stat['yards'] != None:
                 if stat['statId'] == 10 and stat['yards'] < 0:
@@ -106,8 +121,8 @@ def mostRushMinus(files):
             if data['playerName'] not in players.keys():
                 if stat['statId'] == 10:
                     players[data['playerName']] = {}
-                    players[data['playerName']]['totYds'] = 0
-                    players[data['playerName']]['count'] = 0
+                    players[data['playerName']]['totYds'] = stat['yards']
+                    players[data['playerName']]['count'] = 1
 
             elif stat['statId'] != None and stat['yards'] != None:
                 if stat['statId'] == 10 and stat['yards'] < 0:
@@ -134,8 +149,8 @@ def mostPassMinus(files):
             if data['playerName'] not in players.keys():
                 if stat['statId'] == 21:
                     players[data['playerName']] = {}
-                    players[data['playerName']]['totYds'] = 0
-                    players[data['playerName']]['count'] = 0
+                    players[data['playerName']]['totYds'] = stat['yards']
+                    players[data['playerName']]['count'] = 1
 
             elif stat['statId'] != None and stat['yards'] != None:
                 if stat['statId'] == 21 and stat['yards'] < 0:
@@ -162,8 +177,8 @@ def mostTeamPenalties(files):
             if stat['clubcode'] not in teams.keys():
                 if stat['statId'] == 93:
                     teams[stat['clubcode']] = {}
-                    teams[stat['clubcode']]['totYds'] = 0
-                    teams[stat['clubcode']]['count'] = 0
+                    teams[stat['clubcode']]['totYds'] = stat['yards']
+                    teams[stat['clubcode']]['count'] = 1
 
             elif stat['statId'] != None and stat['yards'] != None:
                 if stat['statId'] == 93:
@@ -190,8 +205,8 @@ def mostYardsPenalties(files):
             if stat['clubcode'] not in teams.keys():
                 if stat['statId'] == 93:
                     teams[stat['clubcode']] = {}
-                    teams[stat['clubcode']]['totYds'] = 0
-                    teams[stat['clubcode']]['count'] = 0
+                    teams[stat['clubcode']]['totYds'] = stat['yards']
+                    teams[stat['clubcode']]['count'] = 1
 
             elif stat['statId'] != None and stat['yards'] != None:
                 if stat['statId'] == 93:
@@ -208,29 +223,149 @@ def mostYardsPenalties(files):
     return top_five
 
 # Find the correlation between most penalized teams and games won / lost.
+
+
+
+
 # Average number of plays in a game.
+def averageNumPlays(files):
+
+    for file in files:
+        data = openFileJson(file)
+ 
+        games = 0
+        plays = 0
+
+        for game_id, game_data in data.items():
+            if game_id != 'nextupdate':
+                games += 1
+
+                for drive_id, drive_data in game_data['drives'].items():
+                    if drive_id != 'crntdrv':
+                        plays += drive_data['numplays']
+
+    return plays / games
+
 # Longest field goal.
+def longestFieldGoal(files):
+    players = {}
+
+    for file in files:
+        data = openFileJson(file)
+
+        for stat in data['stats']:
+            if data['playerName'] not in players.keys():
+                if stat['statId'] == 70:
+                    players[data['playerName']] = {}
+                    players[data['playerName']]['totYds'] = stat['yards']
+
+            elif stat['statId'] != None and stat['yards'] != None:
+                if stat['statId'] == 70 and players[data['playerName']]['totYds'] < stat['yards']:
+                    players[data['playerName']]['totYds'] = stat['yards']
+
+    sorted_dict = OrderedDict()
+    sorted_keys = sorted(players, key=lambda x: players[x]['totYds'])
+
+    for key in sorted_keys:
+        sorted_dict[key] = players[key]
+
+    top_five = list(islice(sorted_dict.items(), len(sorted_dict) - 5, len(sorted_dict)))
+    return top_five
+
 # Most field goals.
+def mostFieldGoals(files):
+    players = {}
+
+    for file in files:
+        data = openFileJson(file)
+
+        for stat in data['stats']:
+            if data['playerName'] not in players.keys():
+                if stat['statId'] == 70:
+                    players[data['playerName']] = {}
+                    players[data['playerName']]['totYds'] = stat['yards']
+                    players[data['playerName']]['count'] = 1
+
+            elif stat['statId'] != None and stat['yards'] != None:
+                if stat['statId'] == 70:
+                    players[data['playerName']]['totYds'] += stat['yards']
+                    players[data['playerName']]['count'] += 1
+
+    sorted_dict = OrderedDict()
+    sorted_keys = sorted(players, key=lambda x: players[x]['count'])
+
+    for key in sorted_keys:
+        sorted_dict[key] = players[key]
+
+    top_five = list(islice(sorted_dict.items(), len(sorted_dict) - 5, len(sorted_dict)))
+    return top_five
+
 # Most missed field goals.
+def mostMissedFieldGoals(files):
+    players = {}
+
+    for file in files:
+        data = openFileJson(file)
+
+        for stat in data['stats']:
+            if data['playerName'] not in players.keys():
+                if stat['statId'] == 69:
+                    players[data['playerName']] = {}
+                    players[data['playerName']]['totYds'] = stat['yards']
+                    players[data['playerName']]['count'] = 1
+
+            elif stat['statId'] != None and stat['yards'] != None:
+                if stat['statId'] == 69:
+                    players[data['playerName']]['totYds'] += stat['yards']
+                    players[data['playerName']]['count'] += 1
+
+    sorted_dict = OrderedDict()
+    sorted_keys = sorted(players, key=lambda x: players[x]['count'])
+
+    for key in sorted_keys:
+        sorted_dict[key] = players[key]
+
+    top_five = list(islice(sorted_dict.items(), len(sorted_dict) - 5, len(sorted_dict)))
+    return top_five
+
 # Most dropped passes (Search for "pass" and "dropped" in play description, and stat-id 115).
 
-read_path = os.path.dirname(os.path.abspath(__file__)) + '/data/playerdata/'
-files = getFiles(read_path)
+
+
+
+
+player_path = os.path.dirname(os.path.abspath(__file__)) + '/data/playerdata/'
+game_path = os.path.dirname(os.path.abspath(__file__)) + '/data/game_data/'
+
+player_files = getFiles(player_path)
+game_files = getFiles(game_path)
 
 print("\nFind the player(s) that played for the most teams:")
-pprint(mostTeamsCareer(files))
+pprint(mostTeamsCareer(player_files))
 
 print("\nFind the player(s) that had the most yards rushed for a loss:")
-pprint(mostRushYardMinus(files))
+pprint(mostRushYardMinus(player_files))
 
 print("\nFind the player(s) that had the most rushes for a loss:")
-pprint(mostRushYardMinus(files))
+pprint(mostRushYardMinus(player_files))
 
 print("\nFind the player(s) with the most number of passes for a loss:")
-pprint(mostPassMinus(files))
+pprint(mostPassMinus(player_files))
 
 print("\nFind the team with the most penalties:")
-pprint(mostTeamPenalties(files))
+pprint(mostTeamPenalties(player_files))
 
 print("\nFind the team with the most yards in penalties:")
-pprint(mostYardsPenalties(files))
+pprint(mostYardsPenalties(player_files))
+
+print("\nFind the average number of plays in a game:")
+pprint(averageNumPlays(game_files))
+
+print("\nFind the longest field goal:")
+pprint(longestFieldGoal(player_files))
+
+print("\nFind the most field goals:")
+pprint(mostFieldGoals(player_files))
+
+print("\nFind the most missed field goals:")
+pprint(mostMissedFieldGoals(player_files))
