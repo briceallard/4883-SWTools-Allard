@@ -143,12 +143,12 @@ def mostPassMinus(files):
                     players[data['playerName']]['count'] += 1
 
     sorted_dict = OrderedDict()
-    sorted_keys = sorted(players, key=lambda x: players[x]['totYds'])
+    sorted_keys = sorted(players, key=lambda x: players[x]['count'])
 
     for key in sorted_keys:
         sorted_dict[key] = players[key]
 
-    top_five = list(islice(sorted_dict.items(), 5))
+    top_five = list(islice(sorted_dict.items(), len(sorted_dict) - 5, len(sorted_dict)))
     return top_five
     
 # Find the team with the most penalties.
