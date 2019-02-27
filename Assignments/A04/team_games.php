@@ -7,7 +7,6 @@ if (mysqli_connect_errno($mysqli)) {
     echo "Failed to connect to MySQL: " . mysqli_connect_error();
 }
 
-
 /**
  * This function runs a SQL query and returns the data in an associative array
  * that looks like:
