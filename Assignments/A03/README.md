@@ -22,5 +22,8 @@ To demonstrate the ability of web scraping and the power of json files, we scrap
 * `python3 nfl_scrape_gamedata.py gameids_startYear_to_endYear.json`
 * `python3 nfl_scrape_playerids.py`
 * `python3 nfl_scrape_playerdata.py`
-* `python3 nfl_analyze_data.py`
+* `python3 nfl_analyze_data.py`  
 
+Note: `startYear` must be integer between 2009 and 2019  
+Note: `endYear` must be integer between 2009 and 2019  
+Note: `endYear` must be >= `startYear`
