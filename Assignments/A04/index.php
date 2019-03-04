@@ -148,6 +148,11 @@ function runQuery($mysqli,$sql){
     return $response;
 }
 
+/**
+ * 
+ * ALL QUESTIONS FOR ASSIGNMENT BELOW
+ * 
+ */
 echo"</pre>";
 
 /**
@@ -231,19 +236,21 @@ $sql = "SELECT season, sum(pen) as tot_penalties, count(gameid) as tot_games, su
 $cols = ['id','season','tot_penalties','avg_penalties'];
 displayQuery($question,$sql,$cols,$pads);
 
-// /**
-//  * Question 7
-//  */
-echo nl2br("7. Find the Team(s) with the least amount of average plays every year\nNot completed");
-// $question = "7. Find the Team(s) with the least amount of average plays every year.";
-// $pads = [3,5,5];
-// $sql = "SELECT gameid, clubid, count(gameid) as tot_games, count(playid) as tot_plays
-//         FROM `plays` 
-//         GROUP BY club  
-//         ORDER BY games
-//         ASC LIMIT 5";
-// $cols = ['id','club','pyds'];
-// displayQuery($question,$sql,$cols,$pads);
+/**
+ * Question 7
+ */
+$question = "7. Find the Team(s) with the least amount of average plays every year.";
+$pads = [5,8,8,10];
+$sql = "SELECT gamesperclub.season as season ,gamesperclub.club as club, count(Distinct playid)/gamesperclub.count as avgplays 
+        FROM plays,
+            (SELECT club,  count(DISTINCT gameid) as count, season 
+            FROM `game_totals` group by season, club) as gamesperclub 
+        WHERE gamesperclub.club=plays.clubid 
+        GROUP BY gamesperclub.season,gamesperclub.club 
+        ORDER BY season,avgplays 
+        ASC";
+$cols = ['id','season','club','avgplays'];
+displayQuery($question,$sql,$cols,$pads);
 
 /**
  * Question 8
@@ -273,17 +280,18 @@ $sql = "SELECT playerid, avg(yards) as avg_yards
 $cols = ['id','playerid','name','avg_yards'];
 displayQuery($question,$sql,$cols,$pads);
 
-// /**
-//  * Question 10
-//  */
-// $question = "10. Rank the NFL by win loss percentage (worst first).";
-// $pads = [3,5];
-// $sql = "SELECT AVG(count) as average_plays
-// FROM (
-//     SELECT count(distinct(playid)) as count FROM `players_stats` group by gameid
-// ) as count";
-// $cols = ['id','average_plays'];
-// displayQuery($question,$sql,$cols,$pads);
+/**
+ * Question 10
+ */
+$question = "10. Rank the NFL by win loss percentage (worst first).";
+$pads = [3,6,8];
+$sql = "SELECT `club`, sum(if(`wonloss` like 'won',1,0))/ sum(if(`wonloss` like 'loss',1,0)) as winlossration 
+        FROM `game_totals` 
+        GROUP BY club 
+        ORDER BY winlossration 
+        ASC LIMIT 10";
+$cols = ['id','club','winlossration'];
+displayQuery($question,$sql,$cols,$pads);
 
 // /**
 //  * Question 11
