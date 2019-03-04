@@ -160,13 +160,13 @@ echo"</pre>";
  */
 $question = "1. Count number of teams an individual player played for.";
 $pads = [5,20,12,5];
-$sql = "SELECT id as playerid,name,count(distinct(club)) as count 
+$sql = "SELECT id as playerid, count(distinct(club)) as mycount, name 
         FROM `players` 
-        GROUP BY id,name 
-        ORDER BY `count` 
+        GROUP BY id, name 
+        ORDER BY mycount
         DESC LIMIT 5";
 $response = runQuery($mysqli,$sql);
-$cols = ['id','name','count'];
+$cols = ['id','name','mycount'];
 displayQuery($question,$sql,$cols,$pads);
 
 /**
@@ -174,7 +174,7 @@ displayQuery($question,$sql,$cols,$pads);
  */
 $question = "2. Find the players with the highest total rushing yards by year, and limit the result to top 5.";
 $pads = [3,12,20,8,8];
-$sql = "SELECT playerid, season, sum(yards) as tot_yards 
+$sql = "SELECT season, playerid, sum(yards) as tot_yards 
         FROM `players_stats` 
         WHERE statid=10 or statid=75 or statid=76 
         GROUP BY season, playerid 
@@ -189,7 +189,7 @@ displayQuery($question,$sql,$cols,$pads);
  */
 $question = "3. Find the bottom 5 passing players per year.";
 $pads = [3,12,20,8,8];
-$sql = "SELECT playerid, season, sum(yards) as tot_yards 
+$sql = "SELECT season, playerid, sum(yards) as tot_yards 
         FROM `players_stats` 
         WHERE statid=15 or statid=16 or statid=77 
         GROUP BY season, playerid
@@ -203,7 +203,7 @@ displayQuery($question,$sql,$cols,$pads);
  */
 $question = "4. Find the top 5 players that had the most rushes for a loss.";
 $pads = [3,12,20,8,8];
-$sql = "SELECT playerid, season, count(yards) as tot_yards
+$sql = "SELECT season, playerid, count(yards) as tot_yards
         FROM `players_stats` 
         WHERE yards < 0 and statid=10
         GROUP BY season, playerid
@@ -257,7 +257,7 @@ displayQuery($question,$sql,$cols,$pads);
  */
 $question = "8. Find the top 5 players that had field goals over 40 yards.";
 $pads = [3,12,20,10,10];
-$sql = "SELECT playerid, yards, sum(yards) as tot_yards, count(playid=70) as tot_count
+$sql = "SELECT yards, playerid, sum(yards) as tot_yards, count(playid=70) as tot_count
         FROM `players_stats`
         WHERE yards > 40 and statid=70
         GROUP BY playerid
@@ -285,12 +285,12 @@ displayQuery($question,$sql,$cols,$pads);
  */
 $question = "10. Rank the NFL by win loss percentage (worst first).";
 $pads = [3,6,8];
-$sql = "SELECT `club`, sum(if(`wonloss` like 'won',1,0))/ sum(if(`wonloss` like 'loss',1,0)) as winlossration 
+$sql = "SELECT club, sum(if(wonloss like 'won',1,0))/ sum(if(wonloss like 'loss',1,0)) as winloss
         FROM `game_totals` 
         GROUP BY club 
-        ORDER BY winlossration 
+        ORDER BY winloss
         ASC LIMIT 10";
-$cols = ['id','club','winlossration'];
+$cols = ['id','club','winloss'];
 displayQuery($question,$sql,$cols,$pads);
 
 // /**
