@@ -1,4 +1,6 @@
 ## NFL Data Scraping
+#### Purpose
+To demonstrate the ability of web scraping and the power of json files, we scrape a website with tons of data, in this case https://www.nfl.com. We take the data and store them using a .json format for easy manipulation and data input. We are then able to find statistics for just about anything we could want. Examples included in the `nfl_analyze_data.py`
 
 **Files**
 * nfl_stat_ids.json 
