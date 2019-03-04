@@ -6,6 +6,7 @@ from time import sleep
 from beautifulscraper import BeautifulScraper
 from pprint import pprint
 
+# Get input file
 if len(sys.argv) != 2:
 
     print('Enter filename to use. Ex. "python3 nfl_scrape_gamedata.py gameids_2009_to_2019.json')
@@ -13,19 +14,22 @@ if len(sys.argv) != 2:
 else:
 
     try:
-
+        # open data for read/write
         read_path = os.path.dirname(os.path.abspath(__file__)) + '/data/gameids/'
         write_path = os.path.dirname(os.path.abspath(__file__)) + '/data/game_data/'
         filename = str(sys.argv[1])
 
+        # Check if path exists, if not create
         if not os.path.exists(read_path):
             os.makedirs(read_path)
 
         with open(read_path + filename) as f:
             data = json.load(f)
 
+        # Scrape this site
         base_url = 'http://www.nfl.com/liveupdate/game-center/'
 
+        
         for season, subdictionary in data.items():
             # Get preseason games
             if season == 'PRE':

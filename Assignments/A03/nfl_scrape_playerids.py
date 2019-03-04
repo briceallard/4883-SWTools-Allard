@@ -3,20 +3,24 @@ import sys
 import json
 from pprint import pprint
 
+# open read/write paths
 read_path = os.path.dirname(os.path.abspath(__file__)) + '/data/game_data/'
 write_path = os.path.dirname(os.path.abspath(__file__)) + '/data/playerids/'
 
+# create empty object
 myPlayers = {}
 
+# loop through all json files
 for filename in os.listdir(read_path):
     with open(read_path + filename) as f:
         data = json.load(f)
-
+        # get game data
         for gameid, gamedata in data.items():
             if gameid != "nextupdate":
-
+                #get drivedata
                 for driveid, drivedata in gamedata['drives'].items():
                     if driveid != 'crntdrv':
+                        #get play data
                         for playid, playdata in drivedata['plays'].items():
                             for players, playerdata in playdata['players'].items():
                                 if players != '0':
@@ -29,6 +33,7 @@ for filename in os.listdir(read_path):
                                     print(gameid)
                                     pprint(myPlayers['playerID'])
 
+    #create new json files from data
     filename = '%s' % (myPlayers['playerID']) + '.json'
 
     if not os.path.exists(write_path):

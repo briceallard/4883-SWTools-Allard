@@ -337,47 +337,43 @@ def mostMissedFieldGoals(files):
     top_five = list(islice(sorted_dict.items(), len(sorted_dict) - 5, len(sorted_dict)))
     return top_five
 
-# Most dropped passes (Search for "pass" and "dropped" in play description, and stat-id 115).
 
-
-
-
-
+# Executes all functions and displays them in terminal
 player_path = os.path.dirname(os.path.abspath(__file__)) + '/data/playerdata/'
 game_path = os.path.dirname(os.path.abspath(__file__)) + '/data/game_data/'
 
 player_files = getFiles(player_path)
 game_files = getFiles(game_path)
 
-# print("\nFind the player(s) that played for the most teams:")
-# pprint(mostTeamsCareer(player_files))
+print("\nFind the player(s) that played for the most teams:")
+pprint(mostTeamsCareer(player_files))
 
 print("\nFind the player(s) that played for multiple teams in one year:")
 pprint(mostTeamsYear(player_files))
 
-# print("\nFind the player(s) that had the most yards rushed for a loss:")
-# pprint(mostRushYardMinus(player_files))
+print("\nFind the player(s) that had the most yards rushed for a loss:")
+pprint(mostRushYardMinus(player_files))
 
-# print("\nFind the player(s) that had the most rushes for a loss:")
-# pprint(mostRushYardMinus(player_files))
+print("\nFind the player(s) that had the most rushes for a loss:")
+pprint(mostRushYardMinus(player_files))
 
-# print("\nFind the player(s) with the most number of passes for a loss:")
-# pprint(mostPassMinus(player_files))
+print("\nFind the player(s) with the most number of passes for a loss:")
+pprint(mostPassMinus(player_files))
 
-# print("\nFind the team with the most penalties:")
-# pprint(mostTeamPenalties(player_files))
+print("\nFind the team with the most penalties:")
+pprint(mostTeamPenalties(player_files))
 
-# print("\nFind the team with the most yards in penalties:")
-# pprint(mostYardsPenalties(player_files))
+print("\nFind the team with the most yards in penalties:")
+pprint(mostYardsPenalties(player_files))
 
-# print("\nFind the average number of plays in a game:")
-# pprint(averageNumPlays(game_files))
+print("\nFind the average number of plays in a game:")
+pprint(averageNumPlays(game_files))
 
-# print("\nFind the longest field goal:")
-# pprint(longestFieldGoal(player_files))
+print("\nFind the longest field goal:")
+pprint(longestFieldGoal(player_files))
 
-# print("\nFind the most field goals:")
-# pprint(mostFieldGoals(player_files))
+print("\nFind the most field goals:")
+pprint(mostFieldGoals(player_files))
 
-# print("\nFind the most missed field goals:")
-# pprint(mostMissedFieldGoals(player_files))
+print("\nFind the most missed field goals:")
+pprint(mostMissedFieldGoals(player_files))

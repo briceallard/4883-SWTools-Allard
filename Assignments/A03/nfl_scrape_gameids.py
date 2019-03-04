@@ -5,12 +5,13 @@ from beautifulscraper import BeautifulScraper
 from time import sleep
 from pprint import pprint
 
+# Get input file from terminal
 if len(sys.argv) != 3:
 
     print('Enter start and end year to run script. Ex. "python3 nfl_scrape_gameids.py 2009 2019"')
 
 else:
-    
+    #load scraper data and urls
     bs = BeautifulScraper()
 
     schedule_url = 'http://www.nfl.com/schedules/'
@@ -91,6 +92,7 @@ else:
 
         print('')
 
+    # write data to new json file
     path = os.path.dirname(os.path.abspath(__file__)) + '/data/gameids/'
     filename = 'gameids_%s_to_%s' % (startYear, endYear) + '.json'
 
