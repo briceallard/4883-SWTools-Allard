@@ -106,6 +106,7 @@ def ascii_to_img(**kwargs):
     # You would loop through your old image and write on the newImg with the
     # lines of code below:
     rgb_im = im.convert('RGB')
+    rgb_im.load()
 
     for x in [w - 1]:
         for y in [h - 1]:
