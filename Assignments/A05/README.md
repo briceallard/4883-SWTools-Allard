@@ -37,4 +37,4 @@ or
 ##### Input File
 ![Input File](examples/input_files/lambo.jpg?raw=true "Input File")
 ##### Output File
-<img src="https://www.briceallard.com/images/lambo_output.jpg" width=400 title="Output File">
+![Input File](examples/output_files/lambo_output.jpg?raw=true "Input File")
