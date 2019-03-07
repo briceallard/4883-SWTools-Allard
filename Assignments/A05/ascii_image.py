@@ -17,21 +17,22 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 # Change these based on the font you use
 ascii_chars = [u'P', '4', 'H', 'a', 'a', 't', 'f', 'M', 'N', '>', 'O']
 
-# Default settings
+# Default Ascii characters
 default_ascii_chars = [ u'#', 'A', '@', '%', 'S', '+', '<', '*', ':', ',', '.']
 
-# Default Input Settings
+# Default Input settings
 input_dir = '/input_images/'
 input_file = 'vans-logo.png'
 
-# Default Output Settings
+# Default Output settings
 output_dir = '/output_images/'
 output_file = input_file + '.txt'
 
 # Default Font settings
 font_dir = '/fonts/'
-font_file = 'defaultFont.ttf'
+font_file = 'OpenSans-Regular.ttf'
 font_size = 12
+font_gap = 5
 
 # Use default settings
 default = False
@@ -86,26 +87,110 @@ def img_to_ascii_console(**kwargs):
     width = kwargs.get('width', 200)
     cwd = get_CWD()
 
-    im = Image.open(cwd + input_dir + input_file)
-    im = resize(im, width)
+    # Get input image and resize it
+    im = resize(Image.open(cwd + input_dir + input_file), width)
 
+    # Create list of RGB values from each pixel in im
     rgb_list = list(im.convert('RGB').getdata())
 
     i = 0
     for val in rgb_list:
         r, g, b = (rgb_list[i][0], rgb_list[i][1], rgb_list[i][2])
-        
-        print(default)
-        sys.exit()
 
+        # Use default ascii chars
         if default == True:
             ch = default_ascii_chars[int((r + b + g) / 3) // 25]
+        # Use custom ascii chars fron imported font
         elif default == False:
             ch = ascii_chars[int((r + b + g) / 3) // 25]
+
+        # Write to console    
         sys.stdout.write(ch)
         i += 1
         if i % width == 0:
             sys.stdout.write('\n')
+
+
+def img_to_ascii_file(**kwargs):
+    """
+    Name:
+        img_to_ascii_file
+    Description:
+        Converts a given image to ascii and saves it to a .txt file
+    Params:
+        None
+    Returns:
+        None
+    """
+
+    width = kwargs.get('width', 200)
+    cwd = get_CWD()
+
+    # Get input image and resize it
+    im = resize(Image.open(cwd + input_dir + input_file), width)
+
+    # Create list of RGB values from each pixel in im
+    rgb_list = list(im.convert('RGB').getdata())
+
+    # Create save path if doesn't exist
+    if not os.path.exists(cwd + output_dir):
+        os.makedirs(cwd + output_dir)
+
+    # Open file to write too
+    f = open(cwd + output_dir + output_file, 'w+')
+
+    i = 0
+    for val in rgb_list:
+        r, g, b = (rgb_list[i][0], rgb_list[i][1], rgb_list[i][2])
+
+        # Use default ascii chars
+        if default == True:
+            ch = default_ascii_chars[int((r + b + g) / 3) // 25]
+        # Use custom ascii chars fron imported font
+        elif default == False:
+            ch = ascii_chars[int((r + b + g) / 3) // 25]
+
+        # Write to .txt file
+        f.write(ch)
+        i += 1
+        if i % width == 0:
+            f.write("\n")
+
+    f.close()
+
+
+def ascii_to_img():
+    # Get input image
+    img = Image.open(get_CWD() + input_dir + input_file)
+    img = img.convert('RGB')
+    img.load()
+
+    print()
+
+    # Load font
+    font = ImageFont.truetype(get_CWD() + font_dir + font_file, font_size)
+
+    # Create new image to save
+    new_image = Image.new('RGB', img.size, (255, 255, 255))
+
+    # Create new image to draw on
+    draw_image = ImageDraw.Draw(new_image)
+
+    w, h = img.size
+    for x in [w - 1]:
+        for y in [h - 1]:
+            r, g, b = img.getpixel((x, y))
+
+            # Use default ascii chars
+            if default == True:
+                ch = default_ascii_chars[int((r + b + g) / 3) // 25]
+            # Use custom ascii chars fron imported font
+            elif default == False:
+                ch = ascii_chars[int((r + b + g) / 3) // 25]
+
+            draw_image.text((x,y), ch, font=font, fill=(r, g, b))
+    
+    new_image.show()
 
 
 def usage():
@@ -146,6 +231,7 @@ def use_default():
     print("Setting --output = %s" % output_file)
     print("Setting --font = %s" % font_file)
     print("Setting --size = %d" % font_size)
+    global default
     default = True
 
 
@@ -170,14 +256,9 @@ def handle_args(argv):
     # --o, --output: the location/name of output file once converted
     # --f, --font: the location/name of the font (.ttf) file to use
     # --s, --size: the font size used when writing the file
-    
     if not argv:
         usage()
         sys.exit(2)
-    elif len(argv) == 1:
-        if argv == '-d' or argv == '--default':
-            print("Setting --default = TRUE")
-            use_default()
     # otherwise default values used
     else:
         try:
@@ -206,6 +287,16 @@ def handle_args(argv):
 
 if __name__ == '__main__':
 
+    # Get arguments from terminal and assign them
     handle_args(sys.argv[1:])
-    img_to_ascii_console()
 
+    # Convert image to ascii and display in terminal
+    # If no width is passed, default will be used (200)
+    img_to_ascii_console(width=250)
+
+    # Convert image to ascii and save to .txt file
+    # If no width is passed, default will be used (200)
+    img_to_ascii_file(width=250)
+
+    # Convert each pixel in image to ascii char and create new img
+    ascii_to_img()
