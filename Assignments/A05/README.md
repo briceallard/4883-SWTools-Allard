@@ -35,6 +35,6 @@ or
 
 ## Result
 ##### Input File
-<img src="https://www.briceallard.com/images/lambo_input.jpg" width=400 title="Input File">
+![Input File](./examples/input_file/lambo_input.jpg?raw=true "Input File")
 ##### Output File
 <img src="https://www.briceallard.com/images/lambo_output.jpg" width=400 title="Output File">
