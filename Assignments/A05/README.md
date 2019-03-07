@@ -14,11 +14,9 @@ Takes an image and depicts the contents of each pixel finding the RGBA value. Ba
 
 ## Instructions
 **Help**  
-
 `python3 ascii_image.py -h` to display all available options  
 
 **Default**  
-
 `python3 ascii_image.py -d` to run with default parameters 
 
 **Custom**
