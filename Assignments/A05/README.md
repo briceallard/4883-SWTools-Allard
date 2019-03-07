@@ -14,10 +14,10 @@ Takes an image and depicts the contents of each pixel finding the RGBA value. Ba
 
 ## Instructions
 **Help**
-`python3 ascii_image.py -h` to run with default parameters  
+`python3 ascii_image.py -h` to display all available options  
 
 **Default**
-`python3 ascii_image.py -d` to display all available options  
+`python3 ascii_image.py -d` to run with default parameters 
 
 **Custom**
 * Make sure you store any custom images you want in `./input_images/`
@@ -35,6 +35,6 @@ or
 
 ## Result
 ##### Input File
-<img src="https://www.briceallard.com/images/lambo_input.jpg" width=800 title="Input File">
+<img src="https://www.briceallard.com/images/lambo_input.jpg" width=400 title="Input File">
 ##### Output File
-<img src="https://www.briceallard.com/images/lambo_output.jpg" width=800 title="Output File">
+<img src="https://www.briceallard.com/images/lambo_output.jpg" width=400 title="Output File">
