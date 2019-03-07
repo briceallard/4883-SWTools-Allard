@@ -22,17 +22,19 @@ default_ascii_chars = [ u'#', 'A', '@', '%', 'S', '+', '<', '*', ':', ',', '.']
 
 # Default Input settings
 input_dir = '/input_images/'
-input_file = 'vans-logo.png'
+input_file = 'lambo.jpg'
 
 # Default Output settings
 output_dir = '/output_images/'
-output_file = input_file + '.txt'
+output_file = input_file
 
 # Default Font settings
 font_dir = '/fonts/'
 font_file = 'OpenSans-Regular.ttf'
 font_size = 12
-font_gap = 5
+
+# Default Offset settings
+offset = 1
 
 # Use default settings
 default = False
@@ -137,7 +139,7 @@ def img_to_ascii_file(**kwargs):
         os.makedirs(cwd + output_dir)
 
     # Open file to write too
-    f = open(cwd + output_dir + output_file, 'w+')
+    f = open(cwd + output_dir + output_file + '.txt', 'w+')
 
     i = 0
     for val in rgb_list:
@@ -161,24 +163,26 @@ def img_to_ascii_file(**kwargs):
 
 def ascii_to_img():
     # Get input image
+    print('Image: ' + get_CWD() + input_dir + input_file)
     img = Image.open(get_CWD() + input_dir + input_file)
     img = img.convert('RGB')
     img.load()
 
-    print()
-
     # Load font
+    print('Font: ' + get_CWD() + font_dir + font_file)
     font = ImageFont.truetype(get_CWD() + font_dir + font_file, font_size)
 
+    # Get image dimensions
+    w, h = img.size
+
     # Create new image to save
-    new_image = Image.new('RGB', img.size, (255, 255, 255))
+    new_image = Image.new('RGB', (w * font_size // offset, h * font_size // offset), (255, 255, 255))
 
     # Create new image to draw on
     draw_image = ImageDraw.Draw(new_image)
 
-    w, h = img.size
-    for x in [w - 1]:
-        for y in [h - 1]:
+    for y in range(h):
+        for x in range(w):
             r, g, b = img.getpixel((x, y))
 
             # Use default ascii chars
@@ -188,9 +192,15 @@ def ascii_to_img():
             elif default == False:
                 ch = ascii_chars[int((r + b + g) / 3) // 25]
 
-            draw_image.text((x,y), ch, font=font, fill=(r, g, b))
+            # Draw character at pixel location
+            draw_image.text((x * font_size // offset, y * font_size // offset), ch, font=font, fill=(r, g, b))
     
+    # Display image in image viewer
     new_image.show()
+
+    # Save img
+    print('Saving to: ' + get_CWD() + output_dir + output_file)
+    new_image.save(get_CWD() + output_dir + output_file)
 
 
 def usage():
@@ -212,7 +222,8 @@ def usage():
     print("--font [-f]\t: Location and filename to the font file. (Must be .ttf)")
     print("--size [-s]\t: Size of font you would like to use. (Must be integer)\n")
     print("Ex: python3 ascii_image.py --input=inputFileName.jpg --output=outputFileName.png --font=fontFamily.ttf --size=12")
-    print("Ex: python3 ascii_image.py -i inputFileName.jpg -o outputFileName.png -f fontFamily.ttf -s 12")
+    print("Ex: python3 ascii_image.py -i inputFileName.jpg -o outputFileName.png -f fontFamily.ttf -s 12\n")
+    print("NOTE: Add your own images to ./input_images/")
 
 
 def use_default():
@@ -292,11 +303,11 @@ if __name__ == '__main__':
 
     # Convert image to ascii and display in terminal
     # If no width is passed, default will be used (200)
-    img_to_ascii_console(width=250)
+    img_to_ascii_console(width=150)
 
-    # Convert image to ascii and save to .txt file
-    # If no width is passed, default will be used (200)
-    img_to_ascii_file(width=250)
+    # # Convert image to ascii and save to .txt file
+    # # If no width is passed, default will be used (200)
+    # img_to_ascii_file(width=150)
 
     # Convert each pixel in image to ascii char and create new img
     ascii_to_img()
