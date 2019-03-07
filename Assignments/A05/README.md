@@ -13,10 +13,12 @@ Takes an image and depicts the contents of each pixel finding the RGBA value. Ba
     * converts the image given in the command line to a form of ascii art using a custom font
 
 ## Instructions
-**Help**
+**Help**  
+
 `python3 ascii_image.py -h` to display all available options  
 
-**Default**
+**Default**  
+
 `python3 ascii_image.py -d` to run with default parameters 
 
 **Custom**
