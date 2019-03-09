@@ -1,7 +1,7 @@
 ## Image to Ascii Art
 #### Purpose
 Using Beautifulsoup to scrape the following site: https://www.webfx.com/tools/emoji-cheat-sheet/  
-We grab all emojis available on the site (877 in total) and save them to our output folder for future use
+We grab all emojis available on the site (874 in total) and save them to our output folder for future use
 
 **Files**
 * /emojis/
