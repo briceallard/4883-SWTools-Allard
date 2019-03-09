@@ -12,12 +12,10 @@ Description:
 
 import os
 import sys
-import urllib.request
 import requests
 import zipfile
 from beautifulscraper import BeautifulScraper
 from time import sleep
-from pprint import pprint
 
 
 def zip_folder(output_path, output_file):
@@ -116,6 +114,8 @@ def get_emojis(url, output_path):
 
         count += 1
         sleep(0.02)
+
+    print('{0} emojis saved to {1}'.format(count, output_path))
 
 
 if __name__ == "__main__":
