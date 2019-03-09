@@ -20,7 +20,7 @@ from time import sleep
 from pprint import pprint
 
 
-def zip_folder(output_path, zip_file):
+def zip_folder(output_path, output_file):
     """
     Name:
         zip_folder
@@ -28,13 +28,17 @@ def zip_folder(output_path, zip_file):
         Compresses the path directory in a .zip format
     Params:
         output_path - the directory to store the compressed file
-        zip_file - the zipfile being wrote too
+        output_file - the zipfile being wrote too
     Returns:
         None
     """
+    zip_file = zipfile.ZipFile(output_file, 'w', zipfile.ZIP_DEFLATED)
+
     for root, dirs, files in os.walk(output_path):
         for file in files:
             zip_file.write(os.path.join(root, file))
+
+    zip_file.close()
 
 
 def get_CWD():
@@ -86,6 +90,7 @@ def get_emojis(url, output_path):
     soup = bs.go(url)
     emojis = soup.find_all("span", {"class": "emoji"})
 
+    # To calculate completion %
     total = len(emojis)
     count = 1
 
@@ -124,6 +129,4 @@ if __name__ == "__main__":
     get_emojis(url, output_path)
 
     # Zip the contents of the '/emojis/' folder
-    zip_file = zipfile.ZipFile('Emojis.zip', 'w', zipfile.ZIP_DEFLATED)
-    zip_folder('emojis/', zip_file)
-    zip_file.close()
+    zip_folder('emojis/', 'Emojis.zip')
