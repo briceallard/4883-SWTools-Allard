@@ -34,7 +34,7 @@ font_file = 'OpenSans-Regular.ttf'
 font_size = 12
 
 # Default Offset settings
-offset = 1
+offset = 2
 
 # Use default settings
 default = False
@@ -194,7 +194,7 @@ def ascii_to_img():
 
             # Draw character at pixel location
             draw_image.text((x * font_size // offset, y * font_size // offset), ch, font=font, fill=(r, g, b))
-    
+
     # Display image in image viewer
     new_image.show()
 
