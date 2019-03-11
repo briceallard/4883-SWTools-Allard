@@ -261,7 +261,12 @@ def handle_args(argv):
     Returns:
         None
     """
-
+    
+    global input_file
+    global output_file
+    global font_file
+    global font_size
+    
     # Get user arguments
     # --i, --input: the location/name of input file to convert
     # --o, --output: the location/name of output file once converted
