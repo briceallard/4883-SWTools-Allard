@@ -19,6 +19,8 @@ In the example, I used the trailers to every Marvel Avengers movie for my datase
 **Requirements**
 * FFmpeg - A complete, cross-platform solution to record, convert and stream audio and video.
     * Install with `sudo apt install ffmpeg`  
+* Pillow - Python imaging library that adds support for opening, manipulating, and saving many different image file formats.  
+    * Install with `pip3 install Pillow`
 
 **Example**  
 `python3 match.py folder=emojis/ image=winkydinky.jpg` to execute program with default settings  
