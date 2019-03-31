@@ -63,6 +63,7 @@ def download_video():
     print('Downloading: ' + TITLE)
     yt.streams.first().download(output_path=SAVE_PATH, filename=TITLE)
 
+    ## Screen shot frame by frame every i (Interval)
     ss_frames()
 
 
