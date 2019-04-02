@@ -7,14 +7,22 @@ Repo url: https://github.com/briceallard/4883-SWTools-Allard
 Name: Brice Allard
 Description: 
     Using an image dataset, create an image mosaic (image made of other images)
+    Gathers screen shots of a downloaded youtube clip and resizes them all to
+    the center block in a square dimension
 """
 
 import os
+import cv2
 import sys
+import time
 import string
 import getopt
 import ffmpy
+import numpy as np
+import matplotlib.pyplot as plt
 from pytube import YouTube
+from sklearn.cluster import KMeans
+from PIL import Image, ImageDraw, ImageMath
 
 VIDEO_ID = ''
 SAVE_PATH = ''
@@ -63,7 +71,7 @@ def download_video():
     print('Downloading: ' + TITLE)
     yt.streams.first().download(output_path=SAVE_PATH, filename=TITLE)
 
-    ## Screen shot frame by frame every i (Interval)
+    # Screen shot frame by frame every i (Interval)
     ss_frames()
 
 
@@ -90,6 +98,45 @@ def ss_frames():
               .format(SAVE_PATH + TITLE + '.mp4',
                       str(SS_INTERVAL),
                       save_format))
+
+
+def crop_center(img, width, height):
+    """
+    Name:
+        crop_center
+    Description:
+        Crops to the center of the image given the width and height
+    Params:
+        None
+    Returns:
+        cwd
+    """
+    w, h = img.size
+
+    left = (w - width) / 2
+    top = (h - height) / 2
+    right = (w + height) / 2
+    bottom = (h + height) / 2
+
+    try:
+        img = img.crop((left, top, right, bottom))
+    except:
+        print('Error cropping to the size requested!')
+
+    return img
+
+
+def resize_and_crop():
+    count = 0
+
+    for filename in os.listdir('./frame_captures/'):
+        with Image.open('./frame_captures/' + filename) as image:
+            os.remove('./frame_captures/' + filename)
+            min_dimension = min(image.size)
+            image = crop_center(image, min_dimension, min_dimension)
+            image.save('./frame_captures/' + TITLE + '_' + str(count) + '.jpg')
+            image.close()
+            count += 1
 
 
 def usage():
@@ -163,3 +210,7 @@ if __name__ == '__main__':
     handle_args(sys.argv[1:])
 
     download_video()
+
+    time.sleep(5)
+
+    resize_and_crop()

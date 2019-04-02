@@ -9,15 +9,43 @@ Description:
     Using an image dataset, create an image mosaic (image made of other images)
 """
 
+import cv2
 import os
 import sys
+import json
 import string
 import getopt
-import PIL
+import numpy as np
+import matplotlib.pyplot as plt
+from pprint import pprint
+from sklearn.cluster import KMeans
+from PIL import Image, ImageDraw, ImageMath
 
 
 INPUT_PATH = ''
 OUTPUT_PATH = ''
+DATASET_FILE = '/dominant_data/avengers/avengers.json'
+ENLARGEMENT = 20
+
+
+def resize(img, width):
+    """
+    Name:
+        resize
+    Description:
+        Resizes the image to passed in width value while maintaining aspect ratio
+    Params:
+        img - the image being resized
+        width - designated width (height will be resized to keep aspect ratio)
+    Returns:
+        img
+    """
+
+    wpercent = float(width / float(img.size[0]))
+    hsize = int((float(img.size[1]) * float(wpercent)))
+    img = img.resize((width, hsize), Image.ANTIALIAS)
+
+    return img
 
 
 def get_CWD():
@@ -67,6 +95,9 @@ def handle_args(argv):
         None
     """
 
+    global INPUT_PATH
+    global OUTPUT_PATH
+
     # Get user arguments
     # --i, --input: the image path used for conversion
     # --o, --output: The PATH to save the video
@@ -91,6 +122,57 @@ def handle_args(argv):
             sys.exit(2)
 
 
+def process_input_file(img):
+
+    print('Processing Input Image ...')
+    image = Image.open(img)
+
+    w, h = image.size
+
+    rgb_list = list(image.convert('RGB').getdata())
+
+    new_image = Image.new(
+        'RGB', (w * ENLARGEMENT, h * ENLARGEMENT), (255, 255, 255))
+
+    for y in range(w):
+        for x in range(h):
+            pixel = find_closest_image(image.getpixel((x, y)))
+            paste_image = Image.open('./frame_captures/' + pixel, 'r')
+            paste_image = resize(paste_image, 20)
+            new_image.paste(paste_image, (x, y))
+            
+            print('.', end='', flush=True)
+
+    new_image.save('mosaic.jpg')
+
+
+def process_pixel(color):
+    rgb_a = np.asarray(color)
+    find_closest_image(rgb_a)
+
+
+def find_closest_image(color):
+    a = np.asarray(color)
+    distance = sys.maxsize
+    closest_image = ''
+
+    with open(get_CWD() + DATASET_FILE, 'r') as f:
+        data = json.load(f)
+
+    for filename in data:
+        b = np.asarray(data[filename])
+
+        dist = np.linalg.norm(a-b)
+
+        if(dist < distance):
+            distance = dist
+            closest_image = filename
+
+    return closest_image
+
+
 if __name__ == '__main__':
     # Get arguments from terminal and assign them
     handle_args(sys.argv[1:])
+
+    process_input_file(INPUT_PATH)
