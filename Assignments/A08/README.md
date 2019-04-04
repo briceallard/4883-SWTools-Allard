@@ -87,7 +87,7 @@ For best quality open in browser, or download.
 https://www.briceallard.com/images/ironman_mosaic.jpg
 
 #### Original
-![Original Avengers](examples/avengers_original?raw=true "Original Avengers")  
+![Original Avengers](examples/avengers_original.jpg?raw=true "Original Avengers")  
 
 https://www.briceallard.com/images/avengers_original.jpg
 
