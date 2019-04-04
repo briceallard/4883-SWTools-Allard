@@ -76,23 +76,23 @@ In the example, I used the trailers to every Marvel Avengers movie for my datase
 ## Results
 
 #### Original
-![Original Iron Man](https://www.briceallard.com/images/ironman_original.jpg)  
+![Original Iron Man](examples/ironman_original.jpg?raw=true "Original Iron Man")  
 
 https://www.briceallard.com/images/ironman_original.jpg  
 
 #### Output
-![Original Iron Man](https://www.briceallard.com/images/ironman_mosaic.jpg)  
+![Mosaic Iron Man](examples/ironman_mosaic_example.png?raw=true "Mosaic Iron Man")  
 
 For best quality open in browser, or download.  
 https://www.briceallard.com/images/ironman_mosaic.jpg
 
 #### Original
-![Original Iron Man](https://www.briceallard.com/images/avengers_original.jpg)  
+![Original Avengers](examples/avengers_original?raw=true "Original Avengers")  
 
 https://www.briceallard.com/images/avengers_original.jpg
 
 #### Output
-![Original Iron Man](https://www.briceallard.com/images/avengers_mosaic.jpg)  
+![Mosaic Avengers](examples/avengers_mosaic_example.png?raw=true "Mosaic Avengers")  
 
 For best quality open in browser, or download.  
 https://www.briceallard.com/images/avengers_mosaic.jpg
