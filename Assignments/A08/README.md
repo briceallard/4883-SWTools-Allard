@@ -30,7 +30,7 @@ In the example, I used the trailers to every Marvel Avengers movie for my datase
 * Pillow - Python imaging library that adds support for opening, manipulating, and saving many different image file formats.  
     * Install with `pip3 install Pillow`  
 
-###Step One -
+### Step One -
 **Get images from YouTube clips**
 `images_from_yt.py` specifically handles the download requests as well as the image capture in 1 second intervals. The YouTube video and the Frame Captures are stored locally on the hard drive for use in future steps. The frame captures are also automatically resized and cropped to equal aspect ratio to better represent a single pixel for the mosaic effect.  
 
@@ -46,7 +46,7 @@ In the example, I used the trailers to every Marvel Avengers movie for my datase
     * How frequently you would like to have the frames saved locally. 
     * 1 = 1 Second, 1/60 = 1 Minute, 5/60 = 5 Minutes 
 
-###Step Two -
+### Step Two -
 **Dominant Color .json**
 `frame_captures_to_json.py` will take a directory of images and find the dominant color for each image. These are stored into a .json file in a `filename : color` representation to be used for processing each pixel and finding the best representation of that pixels color.
 
@@ -58,7 +58,7 @@ In the example, I used the trailers to every Marvel Avengers movie for my datase
     * The output name you would like the .json saved as 
     * The compelted .json will always be stored inside the `./dominant_data/` directory  
 
-###Step Three -
+### Step Three -
 **Create Mosaic**
 `image_mosaic.py` utelizes the previous steps results and converts an original image, into another image made up of many smaller images, giving the **mosaic** look.
 
