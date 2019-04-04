@@ -123,35 +123,63 @@ def handle_args(argv):
 
 
 def process_input_file(img):
+    """
+    Name:
+        process_input_file
+    Description:
+        Handles the processing and conversion from the original image
+        to the new image and saves the file in the root directory
+    Params:
+        img: the original image
+    Returns:
+        None
+    """
+    
+    global ENLARGEMENT
 
     print('Processing Input Image ...')
-    image = Image.open(img)
+    original_image = Image.open(img)
+    original_image.load()
 
-    w, h = image.size
+    w, h = original_image.size
+    new_w = w * ENLARGEMENT
+    new_h = h * ENLARGEMENT
+    pos_x = 0
+    pos_y = 0
 
-    rgb_list = list(image.convert('RGB').getdata())
+    print('Creating mosaic of size: {0} x {1}'.format(new_w, new_h))
+    print('This might take awhile ... Please wait.')
+    new_image = Image.new('RGB', (new_w, new_h), (255, 255, 255))
 
-    new_image = Image.new(
-        'RGB', (w * ENLARGEMENT, h * ENLARGEMENT), (255, 255, 255))
-
-    for y in range(w):
-        for x in range(h):
-            pixel = find_closest_image(image.getpixel((x, y)))
-            paste_image = Image.open('./frame_captures/' + pixel, 'r')
+    for y in range(h):
+        for x in range(w):
+            pixel = find_closest_image(original_image.getpixel((x, y)))
+            paste_image = Image.open('./frame_captures/' + pixel)
             paste_image = resize(paste_image, 20)
-            new_image.paste(paste_image, (x, y))
-            
-            print('.', end='', flush=True)
+            new_image.paste(paste_image, (pos_x, pos_y))
+            pos_x += ENLARGEMENT
+        pos_x = 0
+        pos_y += ENLARGEMENT
+
+        print('.', end='', flush=True)
 
     new_image.save('mosaic.jpg')
 
 
-def process_pixel(color):
-    rgb_a = np.asarray(color)
-    find_closest_image(rgb_a)
-
-
 def find_closest_image(color):
+    """
+    Name:
+        find_closest_image
+    Description:
+        Using the dataset json file provided at the top,
+        returns an image filename that represents the closest
+        to the pixel color being passed in.
+    Params:
+        color: the pixel color from origina image
+    Returns:
+        None
+    """
+
     a = np.asarray(color)
     distance = sys.maxsize
     closest_image = ''

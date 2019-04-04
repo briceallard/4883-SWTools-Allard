@@ -12,14 +12,11 @@ Description:
 """
 
 import os
-import cv2
 import sys
 import time
 import string
 import getopt
 import ffmpy
-import numpy as np
-import matplotlib.pyplot as plt
 from pytube import YouTube
 from sklearn.cluster import KMeans
 from PIL import Image, ImageDraw, ImageMath
@@ -28,6 +25,7 @@ VIDEO_ID = ''
 SAVE_PATH = ''
 TITLE = ''
 SS_INTERVAL = 0
+SS_SIZE = 256
 
 
 def get_CWD():
@@ -126,12 +124,33 @@ def crop_center(img, width, height):
     return img
 
 
+def resize(img, width):
+    """
+    Name:
+        resize
+    Description:
+        Resizes the image to passed in width value while maintaining aspect ratio
+    Params:
+        img - the image being resized
+        width - designated width (height will be resized to keep aspect ratio)
+    Returns:
+        img
+    """
+
+    wpercent = float(width / float(img.size[0]))
+    hsize = int((float(img.size[1]) * float(wpercent)))
+    img = img.resize((width, hsize), Image.ANTIALIAS)
+
+    return img
+
+
 def resize_and_crop():
     count = 0
 
     for filename in os.listdir('./frame_captures/'):
         with Image.open('./frame_captures/' + filename) as image:
             os.remove('./frame_captures/' + filename)
+            image = resize(image, SS_SIZE)
             min_dimension = min(image.size)
             image = crop_center(image, min_dimension, min_dimension)
             image.save('./frame_captures/' + TITLE + '_' + str(count) + '.jpg')
