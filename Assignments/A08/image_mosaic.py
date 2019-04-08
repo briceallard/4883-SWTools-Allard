@@ -9,16 +9,12 @@ Description:
     Using an image dataset, create an image mosaic (image made of other images)
 """
 
-import cv2
 import os
 import sys
 import json
 import string
 import getopt
 import numpy as np
-import matplotlib.pyplot as plt
-from pprint import pprint
-from sklearn.cluster import KMeans
 from PIL import Image, ImageDraw, ImageMath
 
 
